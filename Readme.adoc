@@ -17,18 +17,31 @@ Version 0.1, 13.04.2021
 :toc:
 ```
 
-## Documentation
-https://asciidoctor.org/docs/asciidoc-writers-guide/[asciidoc_documentation]
 
-## Links
+== Links
 ```
 http://site.com[text to display]
 ```
-
-## Inline Code
-
+https://asciidoctor.org/[asciidoc]
+== Inline Code
+```
+To write code snepts inline `System.out.println("Code")`
+```
 To write code snepts inline `System.out.println("Code")`
 
-## Buttons
+== Tables
+```
+|===
+|*Header*
+| Body
+|===
+```
+|===
+|*Header*
+| Body
+|===
 
-You can press btn:[ok] when finished
+== Documentation
+* https://asciidoctor.org/docs/asciidoc-writers-guide/[asciidoc_documentation]
+
+* https://www.vogella.com/tutorials/AsciiDoc/article.html#highlighting["Tutorials"]
