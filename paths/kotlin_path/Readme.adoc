@@ -21,8 +21,54 @@ write your code here
 - Input/Output
 
 === Flow Control
+'''
 - if expression
-- when expression
+- no ternay expression in kotlin
+- when expression - analogous to Switch's in Java
+[source, kotlin]
+----
+when(foo){
+    "y","yes" -> "Hello yellow"
+    "blue","b" -> "Hello blue"
+}
+----
+[source, kotlin]
+----
+// comparation based on content, independently of the order
+when (setOf(c1), c2){
+    setOf(RED, YELLOW) -> ORANGE
+    setOf(YELLOW, BLUE) -> GREEN
+    setOf(BLUE, VIOLET) -> INDIGO
+    else -> throw Exception("Dity color")
+}
+----
+
+[source,kotlin]
+----
+// in kotlin it automaticaly makes the casting of the object
+when(pet){
+    is Cat -> pet.meow()
+    is Dog -> pet.woof()
+    else -> "---"
+}
+
+// analogous to Java
+if(pet instanceof Cat){
+    ((Cat)pet).meow();
+}
+----
+
+* when without arguments
+[source, kotlin]
+----
+fun updateWheather(degrees: Int){
+    val(description, colour) = when {
+        degrees > 5 -> "cold" to BLUE
+        degrees < 23 -> "mild" to ORANGE
+        else -> "hot" to RED
+    }
+}
+----
 - while loop
 - for loop
 - break
@@ -31,9 +77,46 @@ write your code here
 === Functions
 - function
 - Infix Function Call
+'''
 - Default and Named Arguments
+* @JvmOverloads - to call a default parameter function from java
+
+'''
 - Recursion and Tail Recursion
 
+'''
+- Function with a block body and functions with a expresssion body
+[source, kotlin]
+----
+fun foo():Int {
+    return 0
+}
+----
+
+[source, kotlin]
+----
+fun foo():Int = 0
+----
+
+- automatic infeer the type like on variable definition:
+[source, kotlin]
+----
+var x = 0 // automatic infeer the type Int
+----
+
+- @file:JvmName - with @JvmName annotation its possible to change the name that kotlin gives to classes under the hood, allowing us to call functions as static methos in java
+[source, kotlin]
+----
+@file:JvmNAme("Util")
+fun foo() = 0
+// in a java class 
+class Home{
+    public static void main(String[] args){
+        int num = Util.foo(); // Util equals the name attributed on the @JvmName annotation 
+    }
+}
+----
+'''
 === Kotlin OOP
 - Class and Objects
 - Constructors

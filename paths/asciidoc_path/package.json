@@ -1,0 +1,16 @@
+{
+  "name": "asciidoc_path",
+  "version": "1.0.0",
+  "description": "= AsciiDoc Intro\r Geting started to AsciiDoc for documentation, manuals writing, books and more\r :author: Anilson Monteiro\r Version 0.1, 13.04.2021\r :sectnums:\r :highlightjs-theme: xcode\r :toc:",
+  "main": "convert-slides.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asciidoctor/reveal.js": "^4.1.0",
+    "asciidoctor": "^2.2.3"
+  }
+}

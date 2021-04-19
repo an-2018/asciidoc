@@ -47,6 +47,9 @@ To write code snepts inline `System.out.println("Code")`
 | Body
 |===
 
+== Slides
+
+
 == Documentation
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[asciidoc_documentation]
 
