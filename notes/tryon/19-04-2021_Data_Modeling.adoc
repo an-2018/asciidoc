@@ -1,0 +1,61 @@
+= Data Modeling - eCommerce use Case
+:imagesdir: media
+
+== Customer
+.Customer _Simple
+image::customer_1.png[Customer, 200, 100]
+
+- Fields
+* first_name (varvhar)
+* middle_name (varchar)
+* last_name (varchar)
+* email_address (varchar)
+* created_at (datetime)
+
+.Customer _Track login attemps
+[caption="Figure 1: "]
+image::customer_2.png[Customer,330,170]
+
+== Product
+.Poduct _Simple
+image::product_1.png[Product, 320,100]
+
+- Fields
+* name
+* sku (Stock keeping unit) - https://en.wikipedia.org/wiki/Stock_keeping_unit
+* description
+* price
+* category_id
+
+.Product _track price history, produts by provider, related produts
+image::product_2.png[Product, 320, 200]
+
+**Problems to track**
+- price of products (customer sale pricem discounted sale prices, manufacturer price)
+
+== Order
+.order _Simple
+image::order_1.png[Order,300, 100]
+
+- Fields
+* customer_id
+* status_code_id
+* customer_comments
+
+- ShoppingCartItem
+
+> When the customer puts an item into their shopping cart should the price at that moment be “locked-in”? If so, for how long?
+
+- Order handling
+
+> Are you tracking analytics on orders?
+What happens if a customer returns a defective item?
+Should you handle shipping within the same data model or have a dedicated shipping context/schema?
+
+.Order _Handling shipment, return, cart items
+image::order_2.png[Order, 500,300]
+
+== References
+
+
+https://resources.fabric.inc/blog/ecommerce-data-model[Building a Scalable E-Commerce Data Model]

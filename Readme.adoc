@@ -1,47 +1,12 @@
-= AsciiDoc Intro
-Geting started to AsciiDoc for documentation, manuals writing, books and more
-:author: Anilson Monteiro
-Version 0.1, 13.04.2021
-:sectnums:
-:highlightjs-theme: xcode
-:toc:
+= Readme
 
-## Title and subtitle
+== TODO's
+- 
 
-```
-= Title of the document: This is the subtitle
-FirsName LastName
-:author: Anilson Monteiro
-Version 0.1, 13.04.2021
-:sectnums:
-:toc:
-```
+== Projects and Ideas
 
-
-== Links
-```
-http://site.com[text to display]
-```
-https://asciidoctor.org/[asciidoc]
-== Inline Code
-```
-To write code snepts inline `System.out.println("Code")`
-```
-To write code snepts inline `System.out.println("Code")`
-
-== Tables
-```
 |===
-|*Header*
-| Body
+|Name | Description|Techs & Skills
+|Katxupi Adventrures | Platformer Game |Gaming
+| Kotxiposix landing | landing page | WebDev
 |===
-```
-|===
-|*Header*
-| Body
-|===
-
-== Documentation
-* https://asciidoctor.org/docs/asciidoc-writers-guide/[asciidoc_documentation]
-
-* https://www.vogella.com/tutorials/AsciiDoc/article.html#highlighting["Tutorials"]

@@ -5,8 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="Anilson Monteiro">
-<title>AsciiDoc Intro</title>
+<title>Data Modeling - eCommerce use Case</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,106 +438,181 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article data-line-1">
 <div id="header">
-<h1>AsciiDoc Intro</h1>
-<div class="details">
-<span id="author" class="author">Anilson Monteiro</span><br>
-<span id="revnumber">version 0.1,</span>
-<span id="revdate">13.04.2021</span>
-</div>
-<div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_title_and_subtitle">1. Title and subtitle</a></li>
-<li><a href="#_links">2. Links</a></li>
-<li><a href="#_tables">3. Tables</a></li>
-<li><a href="#_documentation">4. Documentation</a></li>
-</ul>
-</div>
+<h1>Data Modeling - eCommerce use Case</h1>
 </div>
 <div id="content">
-<div class="sect1 data-line-9">
-<h2 id="_title_and_subtitle">1. Title and subtitle</h2>
+<div class="sect1 data-line-4">
+<h2 id="_customer">Customer</h2>
 <div class="sectionbody">
-<div class="listingblock data-line-11">
+<div class="imageblock data-line-6">
 <div class="content">
-<pre class="highlight"><code>= Title of the document: This is the subtitle
-FirsName LastName
-:author: Anilson Monteiro
-Version 0.1, 13.04.2021
-:sectnums:
-:toc:</code></pre>
+<img src="media/customer_1.png" alt="Customer" width="200" height="100">
 </div>
+<div class="title">Figure 1. Customer _Simple</div>
 </div>
-</div>
-</div>
-<div class="sect1 data-line-21">
-<h2 id="_links">2. Links</h2>
-<div class="sectionbody">
-<div class="listingblock data-line-22">
-<div class="content">
-<pre class="highlight"><code>http://site.com[text to display]</code></pre>
-</div>
-</div>
-<div class="paragraph data-line-25">
-<p><a href="https://asciidoctor.org/">asciidoc</a>
-== Inline Code</p>
-</div>
-<div class="listingblock data-line-27">
-<div class="content">
-<pre class="highlight"><code>To write code snepts inline `System.out.println("Code")`</code></pre>
-</div>
-</div>
-<div class="paragraph data-line-30">
-<p>To write code snepts inline <code>System.out.println("Code")</code></p>
-</div>
-</div>
-</div>
-<div class="sect1 data-line-32">
-<h2 id="_tables">3. Tables</h2>
-<div class="sectionbody">
-<div class="listingblock data-line-33">
-<div class="content">
-<pre class="highlight"><code>|===
-|*Header*
-| Body
-|===</code></pre>
-</div>
-</div>
-<table class="tableblock frame-all grid-all stretch data-line-39">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Header</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Body</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1 data-line-44">
-<h2 id="_documentation">4. Documentation</h2>
-<div class="sectionbody">
-<div class="ulist data-line-45">
+<div class="ulist data-line-8">
 <ul>
-<li class="data-line-45">
-<p><a href="https://asciidoctor.org/docs/asciidoc-writers-guide/">asciidoc_documentation</a></p>
+<li class="data-line-8">
+<p>Fields</p>
+<div class="ulist data-line-9">
+<ul>
+<li class="data-line-9">
+<p>first_name (varvhar)</p>
 </li>
-<li class="data-line-47">
-<p><a href="https://www.vogella.com/tutorials/AsciiDoc/article.html#highlighting">"Tutorials"</a></p>
+<li class="data-line-10">
+<p>middle_name (varchar)</p>
+</li>
+<li class="data-line-11">
+<p>last_name (varchar)</p>
+</li>
+<li class="data-line-12">
+<p>email_address (varchar)</p>
+</li>
+<li class="data-line-13">
+<p>created_at (datetime)</p>
 </li>
 </ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock data-line-17">
+<div class="content">
+<img src="media/customer_2.png" alt="Customer" width="330" height="170">
+</div>
+<div class="title">Figure 1: Customer _Track login attemps</div>
+</div>
+</div>
+</div>
+<div class="sect1 data-line-19">
+<h2 id="_product">Product</h2>
+<div class="sectionbody">
+<div class="imageblock data-line-21">
+<div class="content">
+<img src="media/product_1.png" alt="Product" width="320" height="100">
+</div>
+<div class="title">Figure 2. Poduct _Simple</div>
+</div>
+<div class="ulist data-line-23">
+<ul>
+<li class="data-line-23">
+<p>Fields</p>
+<div class="ulist data-line-24">
+<ul>
+<li class="data-line-24">
+<p>name</p>
+</li>
+<li class="data-line-25">
+<p>sku (Stock keeping unit) - <a href="https://en.wikipedia.org/wiki/Stock_keeping_unit" class="bare">https://en.wikipedia.org/wiki/Stock_keeping_unit</a></p>
+</li>
+<li class="data-line-26">
+<p>description</p>
+</li>
+<li class="data-line-27">
+<p>price</p>
+</li>
+<li class="data-line-28">
+<p>category_id</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock data-line-31">
+<div class="content">
+<img src="media/product_2.png" alt="Product" width="320" height="200">
+</div>
+<div class="title">Figure 3. Product _track price history, produts by provider, related produts</div>
+</div>
+<div class="paragraph data-line-33">
+<p><strong>Problems to track</strong>
+- price of products (customer sale pricem discounted sale prices, manufacturer price)</p>
+</div>
+</div>
+</div>
+<div class="sect1 data-line-36">
+<h2 id="_order">Order</h2>
+<div class="sectionbody">
+<div class="imageblock data-line-38">
+<div class="content">
+<img src="media/order_1.png" alt="Order" width="300" height="100">
+</div>
+<div class="title">Figure 4. order _Simple</div>
+</div>
+<div class="ulist data-line-40">
+<ul>
+<li class="data-line-40">
+<p>Fields</p>
+<div class="ulist data-line-41">
+<ul>
+<li class="data-line-41">
+<p>customer_id</p>
+</li>
+<li class="data-line-42">
+<p>status_code_id</p>
+</li>
+<li class="data-line-43">
+<p>customer_comments</p>
+</li>
+</ul>
+</div>
+</li>
+<li class="data-line-45">
+<p>Questions</p>
+<div class="ulist data-line-46">
+<ul>
+<li class="data-line-46">
+<p>ShoppingCartItem</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="quoteblock data-line-48">
+<blockquote>
+<div class="paragraph data-line-1">
+<p>When the customer puts an item into their shopping cart should the price at that moment be “locked-in”? If so, for how long?</p>
+</div>
+</blockquote>
+</div>
+<div class="ulist data-line-50">
+<ul>
+<li class="data-line-50">
+<p>Order handling</p>
+</li>
+</ul>
+</div>
+<div class="quoteblock data-line-52">
+<blockquote>
+<div class="paragraph data-line-1">
+<p>Are you tracking analytics on orders?
+What happens if a customer returns a defective item?
+Should you handle shipping within the same data model or have a dedicated shipping context/schema?</p>
+</div>
+</blockquote>
+</div>
+<div class="imageblock data-line-57">
+<div class="content">
+<img src="media/order_2.png" alt="Order" width="500" height="300">
+</div>
+<div class="title">Figure 5. Order _Handling shipment, return, cart items</div>
+</div>
+</div>
+</div>
+<div class="sect1 data-line-59">
+<h2 id="_references">References</h2>
+<div class="sectionbody">
+<div class="paragraph data-line-62">
+<p><a href="https://resources.fabric.inc/blog/ecommerce-data-model">Building a Scalable E-Commerce Data Model</a></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.1<br>
-Last updated 2021-04-13 11:18:29 -0100
+Last updated 2021-04-19 12:34:12 -0100
 </div>
 </div>
 </body>

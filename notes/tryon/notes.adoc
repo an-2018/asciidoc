@@ -1,0 +1,49 @@
+= Tryon Notes and Things
+
+== Notes
+=== Todo
+- wireframes and UI/UX
+* check the spotify design workflow and other ux design process
+
+* explore and clone googletravel
+
+* overview of google travel navigation and ux flow
+
+* overview of google fonts and ux flow 
+
+* figma high fidelity ui of pages based on google travel and google fonts
+
+- Research tourism market 
+* taxonomia
+* understand the topics around it
+
+== Oboarding Research
+https://rubenugarte.com/app-onboarding-best-practices/[App Onboarding Best Practices: Lessons from Slack, Stripe and Spotify]
+
+*getting basic demographic data. Questions?*
+
+Who are they?
+
+Gender? Age? Interests?
+
+If they are a company, how many employees do they have? Revenue? Key roles?
+
+How did they learn about your product?
+
+Why are they using your product?
+
+*Understand their first few days or weeks with your product.*
+
+- Did they fill out their profile right away?
+- Did they invite friends or coworkers into the product?
+- What else did they do within the first 7, 14, 30 days?
+
+*Building amazing onboarding experiences*
+
+```
+The point of this exercise (and the other 2) is to get you brainstorming of how you can design an amazing onboarding experience (or user flow). Like everything else, this is an iterative process. You might find yourself doing a lot of manual things in the beginning and slowly automating as you grow.
+```
+
+*Spotify*
+
+Since Spotify wants users to listen to music they love as quickly as possible, they start by asking you about your favorite artists. I love the effect of similar artists appearing once you make a selection.

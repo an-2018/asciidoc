@@ -1,0 +1,17 @@
+= Developers Path to Learn
+:description: A set of tracks and path of things to learn, from techs to art and game design
+
+= Overview
+
+Each path correstpond to a challenge to learn something in that field.
+
+The main goal is to learn it, be it a technology, a programing language, a method, a concept or a techinique.
+
+== Research | Go Deep in the Field
+In a first aprouch the secondary goal is to get deep in that field for a defined time.
+
+== Guided Path | Look for a Curated Content
+Secondly look for a more currated content, like a guided path, and build something in the process.
+
+== Project Phase | Get Inspired and Create Something
+And to finish this process of learning, take what you learned and produce something, like a documenetation on asciidoc of the research maded, or create a project around, build the concept, struture the idea and build a prototype.

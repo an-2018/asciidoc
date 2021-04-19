@@ -1,0 +1,61 @@
+= Design and Tooling
+:toc: auto
+
+== TODO
+- Key properties of product, package and service
+- for product what does it have in common with its derivates
+
+- Produt
+* price
+* 
+- Package
+* name
+*
+- Service
+* name
+* 
+
+=== Tourism Research
+* https://www.unwto-tourismacademy.ie.edu/product/mooc[Tourism Academy]
+
+* https://www.springwise.com/innovation-snapshot/travel-tourism-business-ideas-2020[Tookki an app to search for sustainable choices] 
+
+== Core Design Proposal
+
+- Product
+* Package extends Product
+Service 
+* Service extends Product
+
+* Package is an aggregate of Services
+
+- Aggregation vs Composition
+* Composition = strong relationship, start with aggregation an then use composition when not sure
+
+
+== Tools and Techs
+- Backend Language
+* JVM
+* Kotlin
+* KotlinJS - with react integration
+- Camada de DAO - ORM Model - DB
+
+* ORM JPA Hibernate
+ou
+- Highperformance
+* JOOQ - JPAStream - 
+* Reladom (used by Golden Sachs)
+* liquidbase - migration of db
+
+=== Ideas and Things
+- Bracelet complexity 
+- Java Card - payment cards chip developed in Java, with a serverlet that on power wakes a servelet with an ip and cryptographed zones that on attempt to reach auto destroys
+
+=== References
+- https://en.wikipedia.org/wiki/Class_diagram
+
+- https://www.marcobehler.com/guides/jooq#:~:text=jOOQ%20vs%20Hibernate&text=Hibernate%20takes%20a%20Java%2Dfirst,generate%20its%20Java%20classes%20from.
+
+- https://jpastreamer.org/
+
+

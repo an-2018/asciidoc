@@ -1,0 +1,51 @@
+= Kotlin Learning
+:toc:
+
+== References
+- https://www.coursera.org/learn/kotlin-for-java-developers[Coursera Kotlin for Java Developers]
+- https://www.programiz.com/kotlin-programming[Programiz Rich Reading Content]
+- https://www.youtube.com/watch?v=zknHDRuc91s[Youtube ISEL Desenvolvimento de Aplicacoes para Web (DAW) Online Course]
+
+== Topics
+
+=== Introdution
+
+- Data Types
+[source, js]
+write your code here
+
+- Operators
+-Type Conversion
+- Expression Statement
+- Comments
+- Input/Output
+
+=== Flow Control
+- if expression
+- when expression
+- while loop
+- for loop
+- break
+- continue
+
+=== Functions
+- function
+- Infix Function Call
+- Default and Named Arguments
+- Recursion and Tail Recursion
+
+=== Kotlin OOP
+- Class and Objects
+- Constructors
+- Getters and Setters
+- Inheritance
+- Visibility Modifiers
+- Abstract Class
+- Interfaces
+- Nested and Inner Classes
+- Data Class
+- Sealed Class
+- Kotlin Object
+- Companion Objects
+- extension Function
+- Operator Overloading

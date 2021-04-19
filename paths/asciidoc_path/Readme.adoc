@@ -1,0 +1,57 @@
+= AsciiDoc Intro
+Geting started to AsciiDoc for documentation, manuals writing, books and more
+:author: Anilson Monteiro
+Version 0.1, 13.04.2021
+:sectnums:
+:highlightjs-theme: xcode
+:toc:
+
+## Title and subtitle
+
+[source,js]
+----
+console.log()
+var age = 10;
+----
+[source,ruby]
+----
+= Title of the document: This is the subtitle
+FirsName LastName
+:author: Anilson Monteiro
+Version 0.1, 13.04.2021
+:sectnums:
+:toc:
+----
+
+
+== Links
+```
+http://site.com[text to display]
+```
+https://asciidoctor.org/[asciidoc]
+== Inline Code
+```
+To write code snepts inline `System.out.println("Code")`
+```
+To write code snepts inline `System.out.println("Code")`
+
+== Tables
+```
+|===
+|*Header*
+| Body
+|===
+```
+|===
+|*Header*
+| Body
+|===
+
+== Documentation
+* https://asciidoctor.org/docs/asciidoc-writers-guide/[asciidoc_documentation]
+
+* https://www.vogella.com/tutorials/AsciiDoc/article.html#highlighting["Tutorials"]
+
+== TODO
+find the first to take that can depend on others
+check dependencies btw the core modules

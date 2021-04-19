@@ -1,0 +1,16 @@
+= Design - Continue
+:toc:
+
+== Perfil Turista
+- ajudar a personalizar pacotes turisticos
+- caracteristica/padrao turista
+
+== Input (Source)
+- Onboarding/registro turista
+- formulario online
+- pesquisas efetuadas no market place
+- dados estatisticos do INE - excel
+
+== Output 
+- categoria de profile
+- classificacao de tourista
