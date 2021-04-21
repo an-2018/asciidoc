@@ -6,26 +6,39 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
 
     var rightPosition = 0
     var wrongPosition = 0
+    var aux = StringBuilder()
 
-    fun checkPosition(letter:Char, word:String){
-        println(letter)
+    fun checkPosition(index:Int, letter:Char, word:String){
         if(letter !in word) {
             return
         }
-
-        if (letter == word[0]){
-            print(" right\n")
-            rightPosition++
-        }else {
+        for(i in word.indices){
+            println(letter)
+            if (letter == word[i] && i == index){
+                print(" right\n")
+                rightPosition++
+                continue
+            }
+            if(letter == word[i]){
+                println("wro")
+                wrongPosition++
+                break
+            }
+        }
+        /*else {
             print(" wrong\n")
             wrongPosition++
-        }
+        }*/
     }
 
-    for(i in 0 until secret.length){
+    for(i in guess.indices){
 
-        checkPosition(guess[i], secret)
-        guess = guess.substring(i)
+        if(aux.contains(guess[i])) {
+            continue
+        }
+
+        checkPosition(i, guess[i], secret)
+        aux.append(guess[i])
     }
 
     return Evaluation(rightPosition, wrongPosition)

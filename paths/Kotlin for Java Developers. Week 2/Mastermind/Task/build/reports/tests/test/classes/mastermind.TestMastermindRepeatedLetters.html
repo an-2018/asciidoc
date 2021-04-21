@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">17</div>
+<div class="counter">15</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.086s</div>
+<div class="counter">0.037s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">34%</div>
+<div class="percent">42%</div>
 <p>successful</p>
 </div>
 </td>
@@ -73,16 +73,16 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="test02Sample"></a>
-<h3 class="failures">test02Sample</h3>
+<a name="test01Sample"></a>
+<h3 class="failures">test01Sample</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=ADFA expected:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=ADFE expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test02Sample(TestMastermindRepeatedLetters.kt:14)
+	at mastermind.TestMastermindRepeatedLetters.test01Sample(TestMastermindRepeatedLetters.kt:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,7 +137,7 @@
 <a name="test03Sample"></a>
 <h3 class="failures">test03Sample</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=DFAA expected:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=DFAA expected:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -195,16 +195,16 @@
 </span>
 </div>
 <div class="test">
-<a name="test04Sample"></a>
-<h3 class="failures">test04Sample</h3>
+<a name="test10"></a>
+<h3 class="failures">test10</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=DEFA expected:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=AEFD expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test04Sample(TestMastermindRepeatedLetters.kt:20)
+	at mastermind.TestMastermindRepeatedLetters.test10(TestMastermindRepeatedLetters.kt:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -256,16 +256,16 @@
 </span>
 </div>
 <div class="test">
-<a name="test05"></a>
-<h3 class="failures">test05</h3>
+<a name="test11"></a>
+<h3 class="failures">test11</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=ABCD, guess=EAAA expected:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=DCFC, guess=ABEC expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test05(TestMastermindRepeatedLetters.kt:23)
+	at mastermind.TestMastermindRepeatedLetters.test11(TestMastermindRepeatedLetters.kt:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -317,16 +317,16 @@
 </span>
 </div>
 <div class="test">
-<a name="test06"></a>
-<h3 class="failures">test06</h3>
+<a name="test12"></a>
+<h3 class="failures">test12</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=ADFA expected:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=FDCD, guess=FBAD expected:&lt;Evaluation(rightPosition=2, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test06(TestMastermindRepeatedLetters.kt:26)
+	at mastermind.TestMastermindRepeatedLetters.test12(TestMastermindRepeatedLetters.kt:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -378,199 +378,16 @@
 </span>
 </div>
 <div class="test">
-<a name="test07"></a>
-<h3 class="failures">test07</h3>
+<a name="test14"></a>
+<h3 class="failures">test14</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=DEFA expected:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=DAAE, guess=AABC expected:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test07(TestMastermindRepeatedLetters.kt:29)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="test08"></a>
-<h3 class="failures">test08</h3>
-<span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=EDEB, guess=CBFE expected:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
-	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test08(TestMastermindRepeatedLetters.kt:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="test09"></a>
-<h3 class="failures">test09</h3>
-<span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=CFDF, guess=FCCD expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
-	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test09(TestMastermindRepeatedLetters.kt:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="test13"></a>
-<h3 class="failures">test13</h3>
-<span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=DEFA, guess=AABC expected:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
-	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test13(TestMastermindRepeatedLetters.kt:47)
+	at mastermind.TestMastermindRepeatedLetters.test14(TestMastermindRepeatedLetters.kt:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -625,7 +442,7 @@
 <a name="test15"></a>
 <h3 class="failures">test15</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=BBDC, guess=DFBB expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=BBDC, guess=DFBB expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -747,7 +564,7 @@
 <a name="test17"></a>
 <h3 class="failures">test17</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=BDAD, guess=AAAE expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=2)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=BDAD, guess=AAAE expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -808,7 +625,7 @@
 <a name="test18"></a>
 <h3 class="failures">test18</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=FDDB, guess=CABB expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=FDDB, guess=CABB expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -869,7 +686,7 @@
 <a name="test19"></a>
 <h3 class="failures">test19</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=BDBC, guess=DDFC expected:&lt;Evaluation(rightPosition=2, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=2, wrongPosition=1)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=BDBC, guess=DDFC expected:&lt;Evaluation(rightPosition=2, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -930,7 +747,7 @@
 <a name="test20"></a>
 <h3 class="failures">test20</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=ECDE, guess=CEEE expected:&lt;Evaluation(rightPosition=1, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=3)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=ECDE, guess=CEEE expected:&lt;Evaluation(rightPosition=1, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -988,16 +805,16 @@
 </span>
 </div>
 <div class="test">
-<a name="test21"></a>
-<h3 class="failures">test21</h3>
+<a name="test22"></a>
+<h3 class="failures">test22</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=AAAF, guess=ABCA expected:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=BCDA, guess=AFEA expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test21(TestMastermindRepeatedLetters.kt:71)
+	at mastermind.TestMastermindRepeatedLetters.test22(TestMastermindRepeatedLetters.kt:74)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1049,16 +866,77 @@
 </span>
 </div>
 <div class="test">
-<a name="test22"></a>
-<h3 class="failures">test22</h3>
+<a name="test23"></a>
+<h3 class="failures">test23</h3>
 <span class="code">
-<pre>java.lang.AssertionError: Wrong evaluation for secret=BCDA, guess=AFEA expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
+<pre>java.lang.AssertionError: Wrong evaluation for secret=EEEE, guess=AFEA expected:&lt;Evaluation(rightPosition=1, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
 	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
-	at mastermind.TestMastermindRepeatedLetters.test22(TestMastermindRepeatedLetters.kt:74)
+	at mastermind.TestMastermindRepeatedLetters.test23(TestMastermindRepeatedLetters.kt:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="test25"></a>
+<h3 class="failures">test25</h3>
+<span class="code">
+<pre>java.lang.AssertionError: Wrong evaluation for secret=EEAD, guess=EEEE expected:&lt;Evaluation(rightPosition=2, wrongPosition=0)&gt; but was:&lt;Evaluation(rightPosition=1, wrongPosition=1)&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at mastermind.MastermindTestUtilKt.testEvaluationOneWay(MastermindTestUtil.kt:13)
+	at mastermind.MastermindTestUtilKt.testEvaluation(MastermindTestUtil.kt:7)
+	at mastermind.TestMastermindRepeatedLetters.test25(TestMastermindRepeatedLetters.kt:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1121,83 +999,83 @@
 </tr>
 </thead>
 <tr>
-<td class="success">test01Sample</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
+<td class="failures">test01Sample</td>
+<td class="failures">0.028s</td>
+<td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">test02Sample</td>
-<td class="failures">0.018s</td>
-<td class="failures">failed</td>
+<td class="success">test02Sample</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">test03Sample</td>
-<td class="failures">0.003s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">test04Sample</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">test04Sample</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">test05</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">test06</td>
-<td class="failures">0.003s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">test07</td>
-<td class="failures">0.029s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">test08</td>
-<td class="failures">0.003s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">test09</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="success">test10</td>
+<td class="success">test05</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">test11</td>
-<td class="success">0.002s</td>
+<td class="success">test06</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">test12</td>
+<td class="success">test07</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">test13</td>
+<td class="success">test08</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test09</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">test10</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">test11</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">test12</td>
 <td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">test14</td>
-<td class="success">0.001s</td>
+<td class="success">test13</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">test14</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test15</td>
-<td class="failures">0.002s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test16</td>
-<td class="failures">0.002s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1207,47 +1085,47 @@
 </tr>
 <tr>
 <td class="failures">test18</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test19</td>
-<td class="failures">0.006s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test20</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">test21</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">test21</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">test22</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">test23</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">test24</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">test25</td>
 <td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">test23</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">test24</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">test25</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
 <td class="success">test26</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -1257,192 +1135,165 @@
 <span class="code">
 <pre>A
  right
-D
-F
-E
+A
+wro
 A
  right
-D
-F
-E
+A
+wro
 A
  right
-D
-F
 A
-D
-F
+wro
 A
+wro
 A
-D
-E
-F
+wro
 A
-E
+wro
 A
+wro
 A
-A
+wro
 A
  right
-D
-F
 A
-D
+wro
+A
+ right
+A
+wro
+A
+wro
+A
+wro
+B
+B
+B
+B
+wro
 E
+wro
+B
+B
+B
+B
+wro
+E
+wro
 F
-A
+F
+wro
 C
-B
- wrong
+wro
+D
+D
+D
+wro
 F
-E
 F
- wrong
+wro
+C
+wro
+D
+D
+D
+wro
+A
+ right
+A
+wro
 C
 C
-D
-A
+wro
+F
  right
-E
+F
+F
 F
 D
-A
- right
-E
-F
 D
+wro
 A
+A
+A
+A
+wro
+A
+A
+A
+A
+wro
+A
+A
+wro
+D
+D
+D
+wro
 B
-E
+wro
+F
+F
+F
+wro
+D
+wro
+A
+A
+A
+wro
+B
+B
+B
+B
+wro
+D
+D
+wro
 C
- right
-A
-B
-E
 C
- right
-F
- right
-B
-A
-D
- right
-F
- right
-B
-A
-D
- right
-A
- wrong
-A
- wrong
-B
 C
-A
- wrong
-A
- right
-B
-C
-A
- wrong
-A
- right
-B
-C
-D
- wrong
-F
-B
-B
-F
- wrong
-F
- wrong
-D
-D
-A
- wrong
-A
- wrong
-A
- right
-E
-C
-A
-B
- wrong
-B
- right
-D
- wrong
-D
- right
-F
 C
  right
 C
- wrong
-E
- wrong
-E
- wrong
-E
- right
-A
- right
-B
 C
-A
-A
- wrong
-F
+wro
 E
+wro
 A
  right
 A
-F
-E
+wro
+A
  right
 A
+wro
 A
-F
+A
+A
+A
+wro
 E
- right
-A
-A
-F
+wro
 E
- wrong
-A
-A
-F
+wro
 E
- wrong
-A
+wro
 E
  right
 E
- right
-E
-E
-E
- right
-E
- right
-E
-E
-E
+wro
+A
 A
  right
-F
-F
-E
+A
+A
+A
 A
  right
-F
-F
+A
+A
 </pre>
 </span>
 </div>
@@ -1454,7 +1305,7 @@ F
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at Apr 21, 2021 11:31:41 AM</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at Apr 21, 2021 2:25:45 PM</p>
 </div>
 </div>
 </body>
