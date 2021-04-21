@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mastermind.TestMastermindRepeatedLetters" tests="26" skipped="0" failures="3" errors="0" timestamp="2021-04-21T19:13:37" hostname="NOSI-DDS-87" time="0.055">
+<testsuite name="mastermind.TestMastermindRepeatedLetters" tests="26" skipped="0" failures="3" errors="0" timestamp="2021-04-21T19:49:17" hostname="NOSI-DDS-87" time="0.264">
   <properties/>
-  <testcase name="test01Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.022"/>
-  <testcase name="test02Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.006"/>
-  <testcase name="test03Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.003">
+  <testcase name="test01Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.031"/>
+  <testcase name="test02Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.03"/>
+  <testcase name="test03Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.028">
     <failure message="java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=DFAA expected:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Wrong evaluation for secret=AABC, guess=DFAA expected:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=1)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -61,17 +61,17 @@
 </failure>
   </testcase>
   <testcase name="test04Sample" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test05" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test06" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
+  <testcase name="test05" classname="mastermind.TestMastermindRepeatedLetters" time="0.003"/>
+  <testcase name="test06" classname="mastermind.TestMastermindRepeatedLetters" time="0.016"/>
   <testcase name="test07" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test08" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test09" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test10" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
-  <testcase name="test11" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
-  <testcase name="test12" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
-  <testcase name="test13" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test14" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test15" classname="mastermind.TestMastermindRepeatedLetters" time="0.003">
+  <testcase name="test08" classname="mastermind.TestMastermindRepeatedLetters" time="0.009"/>
+  <testcase name="test09" classname="mastermind.TestMastermindRepeatedLetters" time="0.005"/>
+  <testcase name="test10" classname="mastermind.TestMastermindRepeatedLetters" time="0.002"/>
+  <testcase name="test11" classname="mastermind.TestMastermindRepeatedLetters" time="0.006"/>
+  <testcase name="test12" classname="mastermind.TestMastermindRepeatedLetters" time="0.002"/>
+  <testcase name="test13" classname="mastermind.TestMastermindRepeatedLetters" time="0.011"/>
+  <testcase name="test14" classname="mastermind.TestMastermindRepeatedLetters" time="0.005"/>
+  <testcase name="test15" classname="mastermind.TestMastermindRepeatedLetters" time="0.002">
     <failure message="java.lang.AssertionError: Wrong evaluation for secret=BBDC, guess=DFBB expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Wrong evaluation for secret=BBDC, guess=DFBB expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -128,7 +128,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="test16" classname="mastermind.TestMastermindRepeatedLetters" time="0.002">
+  <testcase name="test16" classname="mastermind.TestMastermindRepeatedLetters" time="0.052">
     <failure message="java.lang.AssertionError: Wrong evaluation for secret=DBFF, guess=FFDD expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Wrong evaluation for secret=DBFF, guess=FFDD expected:&lt;Evaluation(rightPosition=0, wrongPosition=3)&gt; but was:&lt;Evaluation(rightPosition=0, wrongPosition=2)&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -185,16 +185,16 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="test17" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test18" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
+  <testcase name="test17" classname="mastermind.TestMastermindRepeatedLetters" time="0.004"/>
+  <testcase name="test18" classname="mastermind.TestMastermindRepeatedLetters" time="0.002"/>
   <testcase name="test19" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test20" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
+  <testcase name="test20" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
   <testcase name="test21" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
   <testcase name="test22" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
   <testcase name="test23" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
-  <testcase name="test24" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
-  <testcase name="test25" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
-  <testcase name="test26" classname="mastermind.TestMastermindRepeatedLetters" time="0.0"/>
+  <testcase name="test24" classname="mastermind.TestMastermindRepeatedLetters" time="0.002"/>
+  <testcase name="test25" classname="mastermind.TestMastermindRepeatedLetters" time="0.003"/>
+  <testcase name="test26" classname="mastermind.TestMastermindRepeatedLetters" time="0.001"/>
   <system-out><![CDATA[A right
 A right
 A right
@@ -206,18 +206,13 @@ wrong
 A
 wrong
 A
-A
 wrong
 A
 wrong
 A
 wrong
 A
-A
-A
 wrong
-A
-A
 A right
 A
 wrong
@@ -229,25 +224,35 @@ wrong
 A
 wrong
 B
+B
+B
+B
 wrong
 E
 wrong
+B
+B
+B
 B
 wrong
 E
 wrong
 F
+F
 wrong
 C
 wrong
-C
+D
+D
 D
 wrong
 F
+F
 wrong
 C
 wrong
-C
+D
+D
 D
 wrong
 A right
@@ -259,7 +264,12 @@ D right
 F right
 D right
 A
+A
+A
+A
 wrong
+A
+A
 A
 A
 wrong
@@ -268,46 +278,62 @@ A
 wrong
 A right
 A
+A
 wrong
 A right
+D
+D
 D
 wrong
 B
 wrong
+F
+F
+F
+wrong
+D
+wrong
+A
+A
+A
+A
+A
+A
+A right
+A
+A
+A
+A
+A
+A
+A right
 B
-F
-wrong
-F
-D
-wrong
-D
-A
-A
-A right
-A
-A
-A right
+B
 B
 B right
 B
+B
+B
 B right
+D
 D
 D right
 C right
 D
+D
 D right
 C right
 C
-wrong
-E
-wrong
-E
-E right
 C
 wrong
 E
 wrong
+E right
+C
+C
+wrong
 E
+wrong
 E right
 A right
 A
@@ -316,7 +342,11 @@ A right
 A
 wrong
 A
+A
+A
 A right
+A
+A
 A
 A right
 E right
@@ -329,8 +359,12 @@ E right
 E right
 E
 E
+E
+E
 E right
 E right
+E
+E
 E
 E
 A right
