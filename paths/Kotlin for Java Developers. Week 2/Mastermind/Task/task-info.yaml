@@ -1,26 +1,5 @@
 type: edu
 files:
-- name: src/mastermind/evaluateGuess.kt
-  visible: true
-  placeholders:
-  - offset: 154
-    length: 1344
-    placeholder_text: TODO()
-    initial_state:
-      length: 6
-      offset: 158
-    initialized_from_dependency: false
-    selected: true
-    status: Failed
-  text: |
-    package mastermind
-
-    data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
-
-    fun evaluateGuess(secret: String, guess: String): Evaluation {
-        TODO()
-    }
-  learner_created: false
 - name: src/mastermind/playMastermind.kt
   visible: true
   text: |
@@ -256,9 +235,32 @@ files:
 - name: assignmentKey
   visible: false
   learner_created: false
+- name: src/mastermind/evaluateGuess.kt
+  visible: true
+  placeholders:
+  - offset: 154
+    length: 540
+    placeholder_text: TODO()
+    initial_state:
+      length: 6
+      offset: 158
+    initialized_from_dependency: false
+    selected: true
+    status: Failed
+  text: |
+    package mastermind
+
+    data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
+
+    fun evaluateGuess(secret: String, guess: String): Evaluation {
+        TODO()
+    }
+  learner_created: false
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/vmwVT/mastermind-game/discussions
 status: Failed
 feedback:
-  message: 'String index out of range: 4'
-  time: Wed, 21 Apr 2021 08:25:11 UTC
+  message: Wrong evaluation for secret=ABCD, guess=CDBA
+  time: Wed, 21 Apr 2021 12:31:42 UTC
+  expected: Evaluation(rightPosition=0, wrongPosition=4)
+  actual: Evaluation(rightPosition=0, wrongPosition=2)
 record: -1

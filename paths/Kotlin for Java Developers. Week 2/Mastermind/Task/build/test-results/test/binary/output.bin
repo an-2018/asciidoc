@@ -1,207 +1,364 @@
 A
-	A right
+ right
+B
+ right
+C
+ right
 D
-F
-E
+ right
 A
-	A right
+ right
+B
+ right
+C
+ right
 D
-F
-E
-A
-	A right
-A wrong pos
+ right
+C
+ wrong
 D
-F
+ wrong
+B
 A
-	A right
-A wrong pos
-D
-F
-D
-F
 A
-A wrong pos
-D
-E
+ right
+B
+ right
+D
+ wrong
+C
+A
+ right
+B
+ right
+C
+ right
 F
 A
-A wrong pos
-D
-E
+ right
+B
+ right
+C
+ right
 F
-A
-A wrong pos
+F
+ wrong
 E
+ wrong
+C
 A
-A wrong pos
-E
-A
-A wrong pos
-A
-	A right
-A wrong pos
+B
+ wrong
+C
+ right
 D
 F
-A
-	A right
-A wrong pos
+B
+ wrong
+C
+ right
 D
 F
-D
-E
-F
 A
-A wrong pos
+ wrong
+B
+ right
+C
 D
-E
-F
 A
-A wrong pos
-	C
-	B
-	B wrong pos
+ wrong
+B
+ right
+C
+D
+	A
+	 wrong
 	F
-	E
-	E wrong pos
+	D
 	C
-	B
-	B wrong pos
-	F
-	E
-	E wrong pos
-
-F
-
-F wrong pos
 
 C
 
-C wrong pos
+B
 
-D
+ right
 
-D wrong pos
+A
 
-F
+ right
 
-F wrong pos
+E
+
+ right
 
 C
 
-C wrong pos
+B
 
-D
+ right
 
-D wrong pos
-A
-	A right
-E
+A
+
+ right
+
+E
+
+ right
+C
+B
+ right
 F
-D
-A
-	A right
 E
-F
-D
-A
+ right
+F
+ right
 B
-E
-C
-	C right
+ right
 A
-B
+ right
 E
-C
-	C right
-F
-	F right
-B
+ right
+F
+ right
+B
+ right
+A
+ right
+E
+ right
 A
-D
-	D right
-F
-	F right
+ wrong
 B
-A
+ right
+C
+ wrong
 D
-	D right
+A
+ wrong
+B
+ right
+C
+ wrong
+D
 A
-A wrong pos
-B
+ wrong
+F
 C
-A
-A wrong pos
+ wrong
 B
-C
-A
-A wrong pos
-B
 C
-D
-D wrong pos
-F
+ wrong
+B
+ right
+D
+F
+C
+ wrong
+B
+ right
+D
+F
+E
+ right
 B
-B wrong pos
-F
-F wrong pos
-D
-D wrong pos
-A
-A wrong pos
-E
-C
-A
-B
-B wrong pos
-D
-D wrong pos
-F
-C
-	C right
-C
-C wrong pos
-E
-E wrong pos
-A
-	A right
-A wrong pos
-B
-C
-A
-	A right
-A wrong pos
-B
-C
-A
-A wrong pos
-F
-E
-A
-F
-E
-	E right
-A
-F
-E
-	E right
-A
-F
-E
-E wrong pos
-A
-F
-E
-E wrong pos
-E
-	E right
-	E right
-E wrong pos
-E
-A
-	A right
-F
-E
-A
-	A right
-F
+ right
+A
+ right
+C
+ right
+E
+ right
+B
+ right
+A
+ right
+C
+ right
+A
+ right
+D
+F
+E
+A
+ right
+D
+F
+E
+A
+ right
+D
+F
+A
+D
+F
+A
+A
+D
+E
+F
+A
+E
+A
+A
+A
+A
+ right
+D
+F
+A
+D
+E
+F
+A
+C
+B
+ wrong
+F
+E
+F
+ wrong
+C
+C
+D
+A
+ right
+E
+F
+D
+A
+ right
+E
+F
+D
+A
+B
+E
+C
+ right
+A
+B
+E
+C
+ right
+F
+ right
+B
+A
+D
+ right
+F
+ right
+B
+A
+D
+ right
+A
+ wrong
+A
+ wrong
+B
+C
+A
+ wrong
+A
+ right
+B
+C
+A
+ wrong
+A
+ right
+B
+C
+ D
+  wrong
+ F
+ B
+ B
+!F
+! wrong
+!F
+! wrong
+!D
+!D
+"A
+" wrong
+"A
+" wrong
+"A
+" right
+"E
+#C
+#A
+#B
+# wrong
+#B
+# right
+$D
+$ wrong
+$D
+$ right
+$F
+$C
+$ right
+%C
+% wrong
+%E
+% wrong
+%E
+% wrong
+%E
+% right
+&A
+& right
+&B
+&C
+&A
+'A
+' wrong
+'F
+'E
+'A
+' right
+(A
+(F
+(E
+( right
+(A
+(A
+(F
+(E
+( right
+(A
+)A
+)F
+)E
+) wrong
+)A
+)A
+)F
+)E
+) wrong
+)A
+*E
+* right
+*E
+* right
+*E
+*E
+*E
+* right
+*E
+* right
+*E
+*E
++E
++A
++ right
++F
++F
++E
++A
++ right
++F
++F
