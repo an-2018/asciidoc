@@ -1,12 +1,10 @@
-= Readme
-
-== TODO's
-- 
+= Dev Learning Path
+Documentation and note keeping of major things to learn and to do's
 
 == Projects and Ideas
-
+[%header]
 |===
-|Name | Description|Techs & Skills
-|Katxupi Adventrures | Platformer Game |Gaming
-| Kotxiposix landing | landing page | WebDev
+|Name | Description|Techs & Skills | Link
+|Katxupi Adventrures | Platformer Game | Gaming | https://github.com/users/an-2018/projects/2[ git project page]
+| Kotxiposix landing | landing page    | WebDev | 
 |===

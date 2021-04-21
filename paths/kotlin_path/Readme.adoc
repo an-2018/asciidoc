@@ -1,29 +1,24 @@
 = Kotlin Learning
+Basics and key lessons in Kotlin
 :toc:
-
-== References
-- https://www.coursera.org/learn/kotlin-for-java-developers[Coursera Kotlin for Java Developers]
-- https://www.programiz.com/kotlin-programming[Programiz Rich Reading Content]
-- https://www.youtube.com/watch?v=zknHDRuc91s[Youtube ISEL Desenvolvimento de Aplicacoes para Web (DAW) Online Course]
 
 == Topics
 
 === Introdution
 
 - Data Types
-[source, js]
+[source, kotlin]
 write your code here
 
 - Operators
--Type Conversion
+- Type Conversion
 - Expression Statement
-- Comments
 - Input/Output
 
 === Flow Control
 '''
 - if expression
-- no ternay expression in kotlin
+* no ternay expression in kotlin
 - when expression - analogous to Switch's in Java
 [source, kotlin]
 ----
@@ -70,7 +65,25 @@ fun updateWheather(degrees: Int){
 }
 ----
 - while loop
+
 - for loop
+[source, kotlin]
+----
+// simple list iteration
+val list = listOf('a', 'b', 'c')
+for(s in list){
+    print(s)
+}
+
+// map iteration
+val map = mapOf(1 to "a",
+                2 to "b",
+                3 to "c")
+
+for((key, value) in map){
+    println("Value $key is $value")
+}
+----
 - break
 - continue
 
@@ -132,3 +145,8 @@ class Home{
 - Companion Objects
 - extension Function
 - Operator Overloading
+
+== References
+- https://www.coursera.org/learn/kotlin-for-java-developers[Coursera Kotlin for Java Developers]
+- https://www.programiz.com/kotlin-programming[Programiz Rich Reading Content]
+- https://www.youtube.com/watch?v=zknHDRuc91s[Youtube ISEL Desenvolvimento de Aplicacoes para Web (DAW) Online Course]

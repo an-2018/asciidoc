@@ -1,3 +1,9 @@
 = Notes and Ideas
 
 A place to take notes and dont forget them later
+
+- coursera submition
+- kotlinJs geting started
+- kotlinJs angular project
+- Daw class 0
+- 
