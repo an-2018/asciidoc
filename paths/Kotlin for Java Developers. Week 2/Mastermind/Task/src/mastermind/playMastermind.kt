@@ -52,7 +52,6 @@ fun generateSecret(differentLetters: Boolean): String {
             if (differentLetters) {
                 chars.remove(letter)
             }
-            print(letter)
         }
     }
 }

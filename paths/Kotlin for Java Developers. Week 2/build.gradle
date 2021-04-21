@@ -13,7 +13,10 @@ buildscript {
 
 def printOutput(def output) {
     return tasks.create("printOutput") {
-        for (line in output.toString().readLines()) {
+        println "#educational_plugin_checker_version 1"
+        def separator = System.lineSeparator()
+        def lines = output.toString().split("(?<=${separator})|(?=${separator})")
+        for (line in lines) {
             println "#educational_plugin" + line
         }
     }
@@ -65,7 +68,7 @@ subprojects {
                 def lines = message.readLines()
                 println "#educational_plugin FAILED + " + lines[0]
                 lines.subList(1, lines.size()).forEach { line ->
-                  println "#educational_plugin" + line
+                    println "#educational_plugin" + line
                 }
                 // we need this to separate output of different tests
                 println()
@@ -73,9 +76,11 @@ subprojects {
         }
     }
 
-    def runOutput = new ByteArrayOutputStream()
-    tasks.run.setStandardOutput(runOutput)
-    tasks.run.doLast { printOutput(runOutput) }
+    if (project.hasProperty("educationalRun") && "true".equalsIgnoreCase(project.getProperty("educationalRun"))) {
+        def runOutput = new ByteArrayOutputStream()
+        tasks.run.setStandardOutput(runOutput)
+        tasks.run.doLast { printOutput(runOutput) }
+    }
 }
 
 project(':util') {
@@ -84,9 +89,9 @@ project(':util') {
     }
 }
 
-configure(subprojects.findAll {it.name != 'util'}) {
-  dependencies {
-    compile project(':util').sourceSets.main.output
-    testCompile project(':util').sourceSets.test.output
-  }
+configure(subprojects.findAll { it.name != 'util' }) {
+    dependencies {
+        compile project(':util').sourceSets.main.output
+        testCompile project(':util').sourceSets.test.output
+    }
 }

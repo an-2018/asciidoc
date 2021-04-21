@@ -4,42 +4,31 @@ data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
 
 fun evaluateGuess(secret: String, guess: String): Evaluation {
 
-    var rightPosition = 0
-    var wrongPosition = 0
+    var rightPositions = 0
+    var wrongPositions = 0
     var aux = StringBuilder()
+    for(i in secret.indices){
 
-    fun checkPosition(index:Int, letter:Char, word:String){
-        if(letter !in word) {
-            return
-        }
-        for(i in word.indices){
-            println(letter)
-            if (letter == word[i] && i == index){
-                print(" right\n")
-                rightPosition++
-                continue
-            }
-            if(letter == word[i]){
-                println("wro")
-                wrongPosition++
-                break
-            }
-        }
-        /*else {
-            print(" wrong\n")
-            wrongPosition++
-        }*/
-    }
-
-    for(i in guess.indices){
-
-        if(aux.contains(guess[i])) {
+        if(guess[i] !in secret){
             continue
         }
 
-        checkPosition(i, guess[i], secret)
-        aux.append(guess[i])
+        if(guess[i] == secret[i]){
+            println("${guess[i]} right")
+            rightPositions++
+            continue
+        }
+        println(guess[i])
+        for(j in secret.indices){
+            if(guess[j] == secret[j]) continue
+            if(aux.contains(guess[i])) continue
+            if(guess[i] == secret[j] && i != j){
+                println("wrong")
+                aux.append(guess[i])
+                wrongPositions++
+            }
+        }
     }
 
-    return Evaluation(rightPosition, wrongPosition)
+    return Evaluation(rightPositions, wrongPositions)
 }
