@@ -1,0 +1,371 @@
+sub false
+
+[(b, a)]
+seq false
+[]
+Num vowels is 1
+
+sub true
+
+[(z, a)]
+seq false
+[]
+Num vowels is 2
+sub false
+[(b, a), (c, a)]
+seq false
+[]
+Num vowels is 3
+sub false
+
+[(b, a)]
+
+seq true
+[(a, a), (a, a)]
+Num vowels is 3
+
+sub true
+[]
+
+seq true
+[(a, a), (a, a)]
+Num vowels is 3
+
+sub true
+
+[(g, e)]
+
+seq true
+
+[(a, a)]
+Num vowels is 3
+
+sub true
+[]
+
+seq true
+
+[(z, z)]
+Num vowels is 0
+	
+sub true
+	
+[(j, a)]
+	seq false
+	[]
+	Num vowels is 3
+
+
+sub true
+
+[]
+
+
+seq true
+
+
+[(n, n)]
+
+Num vowels is 0
+
+sub true
+
+[(z, u)]
+
+seq true
+
+[(u, u)]
+Num vowels is 2
+
+sub true
+[]
+
+seq true
+
+[(a, a)]
+Num vowels is 3
+
+sub true
+
+[(p, u)]
+seq false
+[]
+Num vowels is 3
+
+sub true
+[]
+
+seq true
+
+[(o, o)]
+Num vowels is 3
+
+sub true
+[]
+
+seq true
+
+[(d, d)]
+Num vowels is 0
+sub false
+
+[(b, a)]
+
+seq true
+
+[(i, i)]
+Num vowels is 3
+sub false
+
+[(b, e)]
+
+seq true
+
+[(e, e)]
+Num vowels is 3
+sub false
+
+[(b, e)]
+
+seq true
+
+[(u, u)]
+Num vowels is 4
+
+sub true
+[]
+
+seq true
+
+[(y, y)]
+Num vowels is 1
+
+sub true
+[(l, i), (s, e)]
+
+seq true
+
+[(e, e)]
+Num vowels is 3
+
+sub true
+[(h, u), (q, e)]
+seq false
+[]
+Num vowels is 3
+
+sub true
+[(w, u), (v, e)]
+seq false
+[]
+Num vowels is 3
+
+sub true
+[(p, o), (y, e), (t, i)]
+seq false
+[]
+Num vowels is 3
+
+sub true
+[(m, u), (y, u)]
+
+seq true
+
+[(u, u)]
+Num vowels is 3
+
+sub true
+[(c, u), (y, a)]
+
+seq true
+
+[(y, y)]
+Num vowels is 3
+
+sub true
+[(f, a), (n, i)]
+
+seq true
+[(m, m), (w, w)]
+Num vowels is 4
+
+sub true
+
+[(j, e)]
+
+seq true
+
+[(e, e)]
+Num vowels is 2
+
+sub true
+
+[(f, i)]
+
+seq true
+
+[(x, x)]
+Num vowels is 2
+
+sub true
+
+[(h, e)]
+
+seq true
+
+[(m, m)]
+Num vowels is 1
+
+sub true
+
+[(h, e)]
+
+seq true
+
+[(m, m)]
+Num vowels is 1
+sub false
+[(j, o), (b, e)]
+
+seq true
+
+[(o, o)]
+Num vowels is 3
+ sub false
+ [(c, u), (b, u)]
+ 
+seq true
+ 
+[(r, r)]
+ Num vowels is 3
+!sub false
+![(b, u), (q, e)]
+!
+seq true
+![(p, p), (q, q)]
+!Num vowels is 3
+"
+sub true
+"[]
+"seq false
+"[]
+"Num vowels is 0
+#sub false
+#[(b, u), (k, i), (j, u)]
+#seq false
+#[]
+#Num vowels is 3
+$sub false
+$[(s, i), (b, u)]
+$
+seq true
+$
+[(x, x)]
+$Num vowels is 2
+%sub false
+%[(b, a), (f, u)]
+%
+seq true
+%
+[(f, f)]
+%Num vowels is 2
+&sub false
+&
+[(b, a)]
+&
+seq true
+&
+[(b, b)]
+&Num vowels is 2
+'
+sub true
+'[]
+'seq false
+'[]
+'Num vowels is 1
+(sub false
+(
+[(b, a)]
+(
+seq true
+(
+[(a, a)]
+(Num vowels is 2
+)sub false
+)
+[(b, e)]
+)seq false
+)[]
+)Num vowels is 3
+*sub false
+*
+[(b, a)]
+*
+seq true
+*
+[(b, b)]
+*Num vowels is 2
++sub false
++
+[(b, e)]
++seq false
++[]
++Num vowels is 3
+,
+sub true
+,[]
+,seq false
+,[]
+,Num vowels is 0
+-
+sub true
+-[]
+-seq false
+-[]
+-Num vowels is 0
+.
+sub true
+.
+[(v, a)]
+.seq false
+.[]
+.Num vowels is 1
+/
+sub true
+/[]
+/seq false
+/[]
+/Num vowels is 0
+0
+sub true
+0[(s, e), (t, e)]
+0seq false
+0[]
+0Num vowels is 2
+1sub false
+1
+[(b, e)]
+1seq false
+1[]
+1Num vowels is 2
+2sub false
+2
+[(b, a)]
+2seq false
+2[]
+2Num vowels is 1
+3sub false
+3[(b, e), (q, e)]
+3seq false
+3[]
+3Num vowels is 2
+4sub false
+4[(l, u), (b, a)]
+4seq false
+4[]
+4Num vowels is 3
+5sub false
+5[(b, u), (x, e)]
+5seq false
+5[]
+5Num vowels is 3
