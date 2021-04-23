@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mastermind.TestMastermindDifferentLetters" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-22T07:28:00" hostname="LAPTOP-0SJIEU5A" time="0.036">
+  <properties/>
+  <testcase name="test01SampleEqual" classname="mastermind.TestMastermindDifferentLetters" time="0.02"/>
+  <testcase name="test02SampleOnlyWrongPositions" classname="mastermind.TestMastermindDifferentLetters" time="0.004"/>
+  <testcase name="test03SampleSwap" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test04RightPositions" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test05WrongPositions" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test06BothRightAndWrong" classname="mastermind.TestMastermindDifferentLetters" time="0.0"/>
+  <testcase name="test07" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test08" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test09" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test10" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test11" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test12" classname="mastermind.TestMastermindDifferentLetters" time="0.0"/>
+  <testcase name="test13" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test14" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <testcase name="test15" classname="mastermind.TestMastermindDifferentLetters" time="0.001"/>
+  <system-out><![CDATA[A right
+B right
+C right
+D right
+A right
+B right
+C right
+D right
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+A right
+B right
+wrong
+wrong
+A right
+B right
+wrong
+wrong
+A right
+B right
+C right
+A right
+B right
+C right
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+C right
+wrong
+C right
+wrong
+B right
+wrong
+B right
+wrong
+wrong
+wrong
+wrong
+B right
+A right
+E right
+B right
+A right
+E right
+B right
+wrong
+E right
+B right
+wrong
+E right
+F right
+B right
+A right
+E right
+F right
+B right
+A right
+E right
+wrong
+B right
+wrong
+wrong
+B right
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+wrong
+B right
+wrong
+B right
+E right
+B right
+A right
+C right
+E right
+B right
+A right
+C right
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

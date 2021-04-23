@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nicestring.TestNiceString" tests="52" skipped="0" failures="0" errors="0" timestamp="2021-04-23T01:49:53" hostname="LAPTOP-0SJIEU5A" time="0.082">
+  <properties/>
+  <testcase name="testExample1" classname="nicestring.TestNiceString" time="0.042"/>
+  <testcase name="testExample2" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testExample3" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testExample4" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testExample5" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice01" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice02" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice03" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice04" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice05" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice06" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice07" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice08" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice09" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice10" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice11" classname="nicestring.TestNiceString" time="0.003"/>
+  <testcase name="testNice12" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice13" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice14" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice15" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice16" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice17" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice18" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice19" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice20" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice21" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice22" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice23" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice24" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNice25" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice26" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNice27" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice1" classname="nicestring.TestNiceString" time="0.002"/>
+  <testcase name="testNotNice10" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice11" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice12" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice13" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice14" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice15" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNotNice16" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice17" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNotNice18" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice19" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice2" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNotNice20" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice3" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNotNice4" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNotNice5" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice6" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice7" classname="nicestring.TestNiceString" time="0.0"/>
+  <testcase name="testNotNice8" classname="nicestring.TestNiceString" time="0.001"/>
+  <testcase name="testNotNice9" classname="nicestring.TestNiceString" time="0.0"/>
+  <system-out><![CDATA[sub false
+[(b, a)]
+seq false
+[]
+Num vowels is 1
+sub true
+[(z, a)]
+seq false
+[]
+Num vowels is 2
+sub false
+[(b, a), (c, a)]
+seq false
+[]
+Num vowels is 3
+sub false
+[(b, a)]
+seq true
+[(a, a), (a, a)]
+Num vowels is 3
+sub true
+[]
+seq true
+[(a, a), (a, a)]
+Num vowels is 3
+sub true
+[(g, e)]
+seq true
+[(a, a)]
+Num vowels is 3
+sub true
+[]
+seq true
+[(z, z)]
+Num vowels is 0
+sub true
+[(j, a)]
+seq false
+[]
+Num vowels is 3
+sub true
+[]
+seq true
+[(n, n)]
+Num vowels is 0
+sub true
+[(z, u)]
+seq true
+[(u, u)]
+Num vowels is 2
+sub true
+[]
+seq true
+[(a, a)]
+Num vowels is 3
+sub true
+[(p, u)]
+seq false
+[]
+Num vowels is 3
+sub true
+[]
+seq true
+[(o, o)]
+Num vowels is 3
+sub true
+[]
+seq true
+[(d, d)]
+Num vowels is 0
+sub false
+[(b, a)]
+seq true
+[(i, i)]
+Num vowels is 3
+sub false
+[(b, e)]
+seq true
+[(e, e)]
+Num vowels is 3
+sub false
+[(b, e)]
+seq true
+[(u, u)]
+Num vowels is 4
+sub true
+[]
+seq true
+[(y, y)]
+Num vowels is 1
+sub true
+[(l, i), (s, e)]
+seq true
+[(e, e)]
+Num vowels is 3
+sub true
+[(h, u), (q, e)]
+seq false
+[]
+Num vowels is 3
+sub true
+[(w, u), (v, e)]
+seq false
+[]
+Num vowels is 3
+sub true
+[(p, o), (y, e), (t, i)]
+seq false
+[]
+Num vowels is 3
+sub true
+[(m, u), (y, u)]
+seq true
+[(u, u)]
+Num vowels is 3
+sub true
+[(c, u), (y, a)]
+seq true
+[(y, y)]
+Num vowels is 3
+sub true
+[(f, a), (n, i)]
+seq true
+[(m, m), (w, w)]
+Num vowels is 4
+sub true
+[(j, e)]
+seq true
+[(e, e)]
+Num vowels is 2
+sub true
+[(f, i)]
+seq true
+[(x, x)]
+Num vowels is 2
+sub true
+[(h, e)]
+seq true
+[(m, m)]
+Num vowels is 1
+sub true
+[(h, e)]
+seq true
+[(m, m)]
+Num vowels is 1
+sub false
+[(j, o), (b, e)]
+seq true
+[(o, o)]
+Num vowels is 3
+sub false
+[(c, u), (b, u)]
+seq true
+[(r, r)]
+Num vowels is 3
+sub false
+[(b, u), (q, e)]
+seq true
+[(p, p), (q, q)]
+Num vowels is 3
+sub true
+[]
+seq false
+[]
+Num vowels is 0
+sub false
+[(b, u), (k, i), (j, u)]
+seq false
+[]
+Num vowels is 3
+sub false
+[(s, i), (b, u)]
+seq true
+[(x, x)]
+Num vowels is 2
+sub false
+[(b, a), (f, u)]
+seq true
+[(f, f)]
+Num vowels is 2
+sub false
+[(b, a)]
+seq true
+[(b, b)]
+Num vowels is 2
+sub true
+[]
+seq false
+[]
+Num vowels is 1
+sub false
+[(b, a)]
+seq true
+[(a, a)]
+Num vowels is 2
+sub false
+[(b, e)]
+seq false
+[]
+Num vowels is 3
+sub false
+[(b, a)]
+seq true
+[(b, b)]
+Num vowels is 2
+sub false
+[(b, e)]
+seq false
+[]
+Num vowels is 3
+sub true
+[]
+seq false
+[]
+Num vowels is 0
+sub true
+[]
+seq false
+[]
+Num vowels is 0
+sub true
+[(v, a)]
+seq false
+[]
+Num vowels is 1
+sub true
+[]
+seq false
+[]
+Num vowels is 0
+sub true
+[(s, e), (t, e)]
+seq false
+[]
+Num vowels is 2
+sub false
+[(b, e)]
+seq false
+[]
+Num vowels is 2
+sub false
+[(b, a)]
+seq false
+[]
+Num vowels is 1
+sub false
+[(b, e), (q, e)]
+seq false
+[]
+Num vowels is 2
+sub false
+[(l, u), (b, a)]
+seq false
+[]
+Num vowels is 3
+sub false
+[(b, u), (x, e)]
+seq false
+[]
+Num vowels is 3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

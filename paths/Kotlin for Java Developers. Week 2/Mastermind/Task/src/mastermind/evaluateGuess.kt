@@ -4,6 +4,12 @@ data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
 
 fun evaluateGuess(secret: String, guess: String): Evaluation {
 
+    fun String.isEmptyOrNull(){
+        return if(this == null || this.isEmpty()) true
+    }
+
+    val a = listOf("a", "b")
+    a.all{}
     var rightPositions = 0
     var wrongPositions = 0
     var aux = StringBuilder()
@@ -32,10 +38,16 @@ fun evaluateGuess(secret: String, guess: String): Evaluation {
 
         for(j in secret.indices){
             if(guess[j] == secret[j]) continue
+
             if(aux.contains(guess[i])){
                 continue
             }
-            println(guess[i])
+
+            if(findOccurencies(guess[i],guess) == 2 && findOccurencies(guess[i], secret) ==2){
+                wrongPositions++
+                break
+            }
+
             if(guess[i] == secret[j] && i != j){
                 println("wrong")
                 aux.append(guess[i])
