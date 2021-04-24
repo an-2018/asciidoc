@@ -51,20 +51,20 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
  */
 fun TaxiPark.checkParetoPrinciple(): Boolean {
     if(trips.size == 0) return false
-
     val totalIncome = this.trips.sumByDouble{it.cost}
-    val drvTrip = this.trips.map{it.driver to it.cost}.groupingBy { it.first }.eachCount()
+    val drvTrip = this.trips.map{it.driver to it}.groupBy { it.first }.map { (k,v) -> k to v.sumByDouble { it.second.cost } }.sortedByDescending { it.second }
+    drvTrip.forEach { println(it) }
+
+    val exp = {cost:Int -> this.trips.map{it.driver to it.cost}.groupingBy { it.first }.eachCount().map { it.value * cost }}
     val sortedTrips = trips.sortedByDescending { it.cost*it.passengers.size}
     val len = this.allDrivers.size
-    val top20Percent = 0.2 * len
+    val top20Percent = (0.2 * len).toInt()
     var sumCost:Double=0.0
 
-    drvTrip.forEach { t, u -> println("$t $u") }
-    sortedTrips.filterIndexed{idx,value -> idx < top20Percent }.forEach { println("${it.cost*it.passengers.size}") }//.forEach{sumCost+=(it.cost*it.passengers.size)}
+    drvTrip.filterIndexed{idx,value -> idx < top20Percent }.forEach{sumCost+=(it.second)}
     println("Total $totalIncome Total drivers $len 20%Driver $top20Percent 20%Cost $sumCost")
 
-    return sumCost >= 0.8*totalIncome
-
+    return sumCost >= 0.8 * totalIncome
 }
 
 fun numToRange(num:Int):IntRange?{
