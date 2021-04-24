@@ -1,162 +1,4 @@
-p10=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1)], duration=10, distance=3.0, discount=null)]
-p30=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-4)], duration=30, distance=3.0, discount=null)]
-p20=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-2)], duration=20, distance=3.0, discount=null)]
-p35=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-3)], duration=35, distance=3.0, discount=null)]
-Ü14=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-2), Passenger(name=P-9)], duration=14, distance=25.0, discount=null)]
-p39=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-8)], duration=39, distance=37.0, discount=0.2)]
-27=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-0), Passenger(name=P-5)], duration=27, distance=28.0, discount=0.3), Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-7)], duration=27, distance=2.0, discount=null)]
-Ü33=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-0), Passenger(name=P-6)], duration=33, distance=14.0, discount=null)]
-Æ2=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-5), Passenger(name=P-1), Passenger(name=P-4), Passenger(name=P-3)], duration=2, distance=15.0, discount=null)]
-Ü31=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-4), Passenger(name=P-6)], duration=31, distance=31.0, discount=null)]
-Ö34=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-9), Passenger(name=P-0)], duration=34, distance=7.0, discount=null)]
-q25=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-3)], duration=25, distance=33.0, discount=null)]
-∞13=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-0), Passenger(name=P-7), Passenger(name=P-2), Passenger(name=P-3)], duration=13, distance=17.0, discount=null)]
-Ï9=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1), Passenger(name=P-6)], duration=9, distance=0.0, discount=0.2), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-1)], duration=9, distance=22.0, discount=0.3)]
-Ñ3=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-9), Passenger(name=P-3)], duration=3, distance=26.0, discount=null)]
-q19=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-7)], duration=19, distance=20.0, discount=null)]
-Ó4=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-3), Passenger(name=P-8)], duration=4, distance=30.0, discount=0.3), Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-9)], duration=4, distance=20.0, discount=null)]
-≠1=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-7), Passenger(name=P-8), Passenger(name=P-5), Passenger(name=P-2)], duration=1, distance=33.0, discount=0.3)]
-q16=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-9)], duration=16, distance=10.0, discount=null)]
-Ñ6=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-0), Passenger(name=P-6)], duration=6, distance=36.0, discount=null)]
-Ö20=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-6), Passenger(name=P-0)], duration=20, distance=31.0, discount=0.1)]
-Ö12=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-3), Passenger(name=P-2)], duration=12, distance=17.0, discount=0.4)]
-q16=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-5)], duration=16, distance=14.0, discount=null)]
-q29=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-1)], duration=29, distance=34.0, discount=null)]
-Ü37=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-4), Passenger(name=P-0)], duration=37, distance=38.0, discount=null)]
-n3=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-7)], duration=3, distance=0.0, discount=null)]
-õ33=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-1), Passenger(name=P-6), Passenger(name=P-3)], duration=33, distance=26.0, discount=null)]
-Ö21=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-9), Passenger(name=P-2)], duration=21, distance=2.0, discount=null)]
-q27=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-9)], duration=27, distance=12.0, discount=null)]
-Ü19=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-1), Passenger(name=P-6)], duration=19, distance=23.0, discount=null)]
-õ10=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-5), Passenger(name=P-9), Passenger(name=P-2)], duration=10, distance=39.0, discount=null)]
-p20=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-8)], duration=20, distance=22.0, discount=0.3)]
-Ö12=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-3), Passenger(name=P-5)], duration=12, distance=25.0, discount=0.4)]
-Ö28=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2), Passenger(name=P-8)], duration=28, distance=6.0, discount=null)]
-ö24=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-0), Passenger(name=P-3), Passenger(name=P-4)], duration=24, distance=4.0, discount=null)]
-Ü19=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2), Passenger(name=P-8)], duration=19, distance=20.0, discount=null)]
-Ñ39=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-0), Passenger(name=P-2)], duration=39, distance=4.0, discount=0.1)]
-Ü17=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-4), Passenger(name=P-2)], duration=17, distance=27.0, discount=null)]
-o6=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-4)], duration=6, distance=11.0, discount=null)]
-o1=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-5)], duration=1, distance=18.0, discount=null)]
-n3=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-2)], duration=3, distance=35.0, discount=0.4)]
-≥21=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-18), Passenger(name=P-5)], duration=21, distance=17.0, discount=null), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-19), Passenger(name=P-13)], duration=21, distance=16.0, discount=0.3), Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-8), Passenger(name=P-2), Passenger(name=P-3), Passenger(name=P-19)], duration=21, distance=6.0, discount=0.3)]
-Ü37=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-8), Passenger(name=P-11)], duration=37, distance=29.0, discount=0.1)]
-≤33=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-19), Passenger(name=P-11), Passenger(name=P-10), Passenger(name=P-4)], duration=33, distance=12.0, discount=0.2)]
-É8=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-4), Passenger(name=P-3)], duration=8, distance=2.0, discount=null), Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-14), Passenger(name=P-6)], duration=8, distance=34.0, discount=0.4)]
-p1=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-18)], duration=1, distance=11.0, discount=null)]
-Ü26=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-13), Passenger(name=P-10)], duration=26, distance=4.0, discount=0.4)]
-ù35=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-14), Passenger(name=P-16), Passenger(name=P-1)], duration=35, distance=33.0, discount=null)]
-Ò9=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-13), Passenger(name=P-8)], duration=9, distance=29.0, discount=null), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-13)], duration=9, distance=22.0, discount=null)]
-Û31=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-12)], duration=31, distance=5.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-14), Passenger(name=P-7)], duration=31, distance=16.0, discount=null)]
-õ22=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-2), Passenger(name=P-11), Passenger(name=P-4)], duration=22, distance=18.0, discount=0.3)]
-q11=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-4)], duration=11, distance=16.0, discount=null)]
-Ö3=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-14), Passenger(name=P-16)], duration=3, distance=9.0, discount=null)]
-±27=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-11), Passenger(name=P-10), Passenger(name=P-3), Passenger(name=P-9)], duration=27, distance=35.0, discount=0.1)]
-Ú36=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-12)], duration=36, distance=8.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-10), Passenger(name=P-0)], duration=36, distance=6.0, discount=null)]
-Ü7=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-11), Passenger(name=P-13)], duration=7, distance=15.0, discount=null)]
-à28=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-16), Passenger(name=P-12)], duration=28, distance=27.0, discount=null)]
-Ÿ16=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-9)], duration=16, distance=7.0, discount=0.1), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-4)], duration=16, distance=2.0, discount=0.3)]
-õ18=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-11), Passenger(name=P-7), Passenger(name=P-3)], duration=18, distance=2.0, discount=null)]
-p15=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-3)], duration=15, distance=39.0, discount=0.2)]
-q14=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-7)], duration=14, distance=36.0, discount=null)]
-r38=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-11)], duration=38, distance=23.0, discount=null)]
-Ø19=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-12), Passenger(name=P-6), Passenger(name=P-3), Passenger(name=P-4)], duration=19, distance=3.0, discount=0.1)]
-ô2=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-13), Passenger(name=P-3), Passenger(name=P-9)], duration=2, distance=10.0, discount=0.2)]
-	á13=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-4), Passenger(name=P-18)], duration=13, distance=32.0, discount=null)]
-	≈8=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-7), Passenger(name=P-9), Passenger(name=P-16), Passenger(name=P-13)], duration=8, distance=11.0, discount=null), Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-4), Passenger(name=P-6), Passenger(name=P-11)], duration=8, distance=16.0, discount=0.4)]
-	ô4=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-3), Passenger(name=P-18), Passenger(name=P-1)], duration=4, distance=27.0, discount=0.1)]
-	ò7=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-2), Passenger(name=P-3), Passenger(name=P-8)], duration=7, distance=8.0, discount=null), Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-8), Passenger(name=P-11)], duration=7, distance=34.0, discount=0.4)]
-	ô9=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-14), Passenger(name=P-4)], duration=9, distance=34.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-8), Passenger(name=P-4)], duration=9, distance=19.0, discount=0.1), Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-11), Passenger(name=P-3), Passenger(name=P-7)], duration=9, distance=23.0, discount=0.2)]
-	Ò35=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-8)], duration=35, distance=24.0, discount=0.3), Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-16), Passenger(name=P-7)], duration=35, distance=9.0, discount=0.2), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-8), Passenger(name=P-19)], duration=35, distance=31.0, discount=0.4)]
-	á11=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-14), Passenger(name=P-13)], duration=11, distance=4.0, discount=null)]
-	Ô20=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-5), Passenger(name=P-1)], duration=20, distance=18.0, discount=0.2), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-4)], duration=20, distance=5.0, discount=0.4)]
-	á24=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-9), Passenger(name=P-13)], duration=24, distance=13.0, discount=null)]
-	Ö1=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-5), Passenger(name=P-14), Passenger(name=P-13)], duration=1, distance=4.0, discount=null), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-17)], duration=1, distance=34.0, discount=0.1)]
-	á17=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-15), Passenger(name=P-5)], duration=17, distance=34.0, discount=null)]
-	q18=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-16)], duration=18, distance=7.0, discount=null)]
-	o5=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-3)], duration=5, distance=20.0, discount=null)]
-	≤26=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-3), Passenger(name=P-13), Passenger(name=P-12), Passenger(name=P-17)], duration=26, distance=19.0, discount=0.1)]
-	p28=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-16)], duration=28, distance=5.0, discount=0.1)]
-	q27=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-4)], duration=27, distance=38.0, discount=null)]
-	Ü38=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-7), Passenger(name=P-9)], duration=38, distance=20.0, discount=null)]
-	›19=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-6), Passenger(name=P-13)], duration=19, distance=5.0, discount=null), Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-11)], duration=19, distance=11.0, discount=0.4), Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-5)], duration=19, distance=39.0, discount=0.1)]
-	r32=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-14)], duration=32, distance=37.0, discount=null)]
-	á39=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-6), Passenger(name=P-16)], duration=39, distance=10.0, discount=null)]
-
-û400=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-7), Passenger(name=P-3), Passenger(name=P-4)], duration=400, distance=890.0, discount=null)]
-
-Ü10=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-4), Passenger(name=P-1)], duration=10, distance=897.0, discount=0.1)]
-
-â672=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-4), Passenger(name=P-2)], duration=672, distance=818.0, discount=null)]
-
-s715=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-9)], duration=715, distance=807.0, discount=0.2)]
-
-û462=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-5), Passenger(name=P-3), Passenger(name=P-2)], duration=462, distance=816.0, discount=null)]
-
-â824=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-6), Passenger(name=P-2)], duration=824, distance=948.0, discount=null)]
-
-ù261=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-5), Passenger(name=P-3), Passenger(name=P-7)], duration=261, distance=26.0, discount=null)]
-
-ú575=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-8), Passenger(name=P-3), Passenger(name=P-5)], duration=575, distance=57.0, discount=0.1)]
-
-à341=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-2), Passenger(name=P-1)], duration=341, distance=607.0, discount=0.3)]
-
-ù349=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-3), Passenger(name=P-8), Passenger(name=P-6)], duration=349, distance=26.0, discount=null)]
-ù425=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-6), Passenger(name=P-8), Passenger(name=P-3)], duration=425, distance=230.0, discount=0.3)]
-t151=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-4)], duration=151, distance=351.0, discount=null)]
-s892=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-6)], duration=892, distance=165.0, discount=0.2)]
-ù538=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-4), Passenger(name=P-7), Passenger(name=P-6)], duration=538, distance=699.0, discount=0.3)]
-s477=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-3)], duration=477, distance=706.0, discount=0.3)]
-ú79=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-6), Passenger(name=P-7), Passenger(name=P-1)], duration=79, distance=924.0, discount=null)]
-s433=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-4)], duration=433, distance=404.0, discount=0.3)]
-â264=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-3), Passenger(name=P-5)], duration=264, distance=217.0, discount=null)]
-o81=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-5)], duration=81, distance=8.0, discount=0.3)]
-r67=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-5)], duration=67, distance=613.0, discount=null)]
-û716=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-8), Passenger(name=P-1), Passenger(name=P-9)], duration=716, distance=164.0, discount=null)]
-s406=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-9)], duration=406, distance=180.0, discount=0.1)]
-s856=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-8)], duration=856, distance=104.0, discount=0.2)]
-t592=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-4)], duration=592, distance=270.0, discount=null)]
-≥101=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-4), Passenger(name=P-7), Passenger(name=P-6), Passenger(name=P-2)], duration=101, distance=880.0, discount=null)]
-ù323=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-5), Passenger(name=P-2), Passenger(name=P-0)], duration=323, distance=253.0, discount=0.4)]
-ù127=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-1), Passenger(name=P-0), Passenger(name=P-4)], duration=127, distance=99.0, discount=null)]
-û324=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-4), Passenger(name=P-6), Passenger(name=P-2)], duration=324, distance=182.0, discount=null)]
-à325=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-6), Passenger(name=P-0)], duration=325, distance=36.0, discount=null)]
-â213=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-0), Passenger(name=P-9)], duration=213, distance=182.0, discount=null)]
-»0=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-15), Passenger(name=P-14), Passenger(name=P-10)], duration=0, distance=19.0, discount=null), Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-9), Passenger(name=P-0), Passenger(name=P-3), Passenger(name=P-14)], duration=0, distance=15.0, discount=null), Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-19), Passenger(name=P-10)], duration=0, distance=8.0, discount=null)]
-á15=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-18), Passenger(name=P-8), Passenger(name=P-7), Passenger(name=P-14)], duration=15, distance=1.0, discount=null), Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-8)], duration=15, distance=8.0, discount=0.2), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-15)], duration=15, distance=10.0, discount=0.4)]
-‹9=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-4), Passenger(name=P-19), Passenger(name=P-0)], duration=9, distance=15.0, discount=null), Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-12), Passenger(name=P-19), Passenger(name=P-7), Passenger(name=P-0)], duration=9, distance=10.0, discount=0.4), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-6), Passenger(name=P-14)], duration=9, distance=7.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-15), Passenger(name=P-7), Passenger(name=P-12)], duration=9, distance=6.0, discount=null), Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-4), Passenger(name=P-15)], duration=9, distance=17.0, discount=0.1), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-16), Passenger(name=P-15)], duration=9, distance=4.0, discount=null)]
-Ú13=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-12), Passenger(name=P-7), Passenger(name=P-2)], duration=13, distance=19.0, discount=0.3), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-15)], duration=13, distance=1.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-3)], duration=13, distance=15.0, discount=0.2)]
-á14=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-11), Passenger(name=P-8)], duration=14, distance=19.0, discount=null)]
-ı12=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-2)], duration=12, distance=14.0, discount=0.3), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-13), Passenger(name=P-18)], duration=12, distance=14.0, discount=null), Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-7), Passenger(name=P-18)], duration=12, distance=11.0, discount=null)]
-ù16=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-1), Passenger(name=P-17), Passenger(name=P-9), Passenger(name=P-10)], duration=16, distance=3.0, discount=null), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-13)], duration=16, distance=11.0, discount=0.3)]
-ü10=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-17)], duration=10, distance=6.0, discount=0.4), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-0), Passenger(name=P-18), Passenger(name=P-3)], duration=10, distance=11.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-10), Passenger(name=P-19), Passenger(name=P-17)], duration=10, distance=7.0, discount=null)]
-Ô7=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-8), Passenger(name=P-1)], duration=7, distance=5.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-14), Passenger(name=P-0)], duration=7, distance=2.0, discount=null), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-18)], duration=7, distance=19.0, discount=null)]
-Ñ3=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-6)], duration=3, distance=6.0, discount=null), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-0), Passenger(name=P-18), Passenger(name=P-13)], duration=3, distance=5.0, discount=null)]
-q11=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-16)], duration=11, distance=12.0, discount=0.1)]
-Ÿ1=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-4)], duration=1, distance=16.0, discount=0.4), Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-19)], duration=1, distance=13.0, discount=0.4)]
-Ò2=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-13)], duration=2, distance=7.0, discount=0.1), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-13), Passenger(name=P-11), Passenger(name=P-15)], duration=2, distance=9.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-12)], duration=2, distance=16.0, discount=null)]
-n6=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-9)], duration=6, distance=18.0, discount=0.4)]
-r17=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-10)], duration=17, distance=15.0, discount=null)]
-Ø5=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-9), Passenger(name=P-13), Passenger(name=P-1), Passenger(name=P-19)], duration=5, distance=14.0, discount=0.2)]
-q18=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-10)], duration=18, distance=10.0, discount=0.2)]
-≤19=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-9), Passenger(name=P-15), Passenger(name=P-16), Passenger(name=P-19)], duration=19, distance=12.0, discount=0.3)]
-8=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-16)], duration=8, distance=17.0, discount=null), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-4), Passenger(name=P-11)], duration=8, distance=5.0, discount=null)]
-˘10=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-11)], duration=10, distance=12.0, discount=null), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-11)], duration=10, distance=19.0, discount=null), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-0), Passenger(name=P-1)], duration=10, distance=1.0, discount=null), Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-16)], duration=10, distance=4.0, discount=null), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-4), Passenger(name=P-17)], duration=10, distance=18.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-2), Passenger(name=P-19), Passenger(name=P-8), Passenger(name=P-1)], duration=10, distance=15.0, discount=null)]
-‹14=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-8), Passenger(name=P-13)], duration=14, distance=4.0, discount=0.1), Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-19)], duration=14, distance=9.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-0)], duration=14, distance=19.0, discount=0.3)]
-±6=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-18), Passenger(name=P-10)], duration=6, distance=17.0, discount=0.1), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-0), Passenger(name=P-18), Passenger(name=P-11), Passenger(name=P-14)], duration=6, distance=17.0, discount=0.3)]
-p19=[Trip(driver=Driver(name=D-0), passengers=[Passenger(name=P-0)], duration=19, distance=17.0, discount=0.1)]
-à12=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-2), Passenger(name=P-15)], duration=12, distance=9.0, discount=null), Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-4), Passenger(name=P-19)], duration=12, distance=0.0, discount=null), Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-16), Passenger(name=P-3)], duration=12, distance=10.0, discount=0.4)]
-ü11=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-11), Passenger(name=P-10), Passenger(name=P-7), Passenger(name=P-15)], duration=11, distance=5.0, discount=null), Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-11)], duration=11, distance=18.0, discount=null)]
-Ñ5=[Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-1), Passenger(name=P-18)], duration=5, distance=14.0, discount=0.3), Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-15), Passenger(name=P-6)], duration=5, distance=6.0, discount=null)]
-É7=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-19), Passenger(name=P-8)], duration=7, distance=8.0, discount=0.2)]
-Ô1=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-11), Passenger(name=P-6)], duration=1, distance=4.0, discount=null), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-19), Passenger(name=P-7)], duration=1, distance=3.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-1)], duration=1, distance=13.0, discount=null)]
-ÿ2=[Trip(driver=Driver(name=D-8), passengers=[Passenger(name=P-0), Passenger(name=P-4)], duration=2, distance=12.0, discount=0.4), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-12)], duration=2, distance=15.0, discount=0.2), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-10)], duration=2, distance=2.0, discount=0.2)]
-Ú16=[Trip(driver=Driver(name=D-6), passengers=[Passenger(name=P-16), Passenger(name=P-14)], duration=16, distance=0.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-9)], duration=16, distance=5.0, discount=null), Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-8), Passenger(name=P-5)], duration=16, distance=3.0, discount=null)]
-≤4=[Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-8), Passenger(name=P-14)], duration=4, distance=19.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-7), Passenger(name=P-6), Passenger(name=P-12)], duration=4, distance=19.0, discount=null), Trip(driver=Driver(name=D-4), passengers=[Passenger(name=P-11), Passenger(name=P-14), Passenger(name=P-18)], duration=4, distance=3.0, discount=null)]
-Ü15=[Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-18), Passenger(name=P-0)], duration=15, distance=14.0, discount=0.2)]
-Ó0=[Trip(driver=Driver(name=D-7), passengers=[Passenger(name=P-5)], duration=0, distance=4.0, discount=null), Trip(driver=Driver(name=D-9), passengers=[Passenger(name=P-13), Passenger(name=P-17)], duration=0, distance=8.0, discount=0.3)]
-É9=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-7), Passenger(name=P-12)], duration=9, distance=6.0, discount=0.2)]
-n3=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-0)], duration=3, distance=15.0, discount=0.4)]
-r17=[Trip(driver=Driver(name=D-5), passengers=[Passenger(name=P-11)], duration=17, distance=16.0, discount=null)]
-p33=[Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1)], duration=33, distance=3.0, discount=null)]
-t4320=[Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2)], duration=4320, distance=3.0, discount=null)]
+Driver(name=D-1) 4
+Driver(name=D-2) 1
+40.0
+7Total 200.0 Total drivers 5 20%Driver 1.0 20%Cost 0.0

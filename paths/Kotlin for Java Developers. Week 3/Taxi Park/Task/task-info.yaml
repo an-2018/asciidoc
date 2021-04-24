@@ -39,7 +39,7 @@ files:
       offset: 136
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
   - offset: 587
     length: 2
     placeholder_text: TODO()
@@ -48,7 +48,7 @@ files:
       offset: 311
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
   - offset: 753
     length: 207
     placeholder_text: TODO()
@@ -57,7 +57,7 @@ files:
       offset: 490
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
   - offset: 1101
     length: 323
     placeholder_text: TODO()
@@ -66,25 +66,25 @@ files:
       offset: 646
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-  - offset: 1761
-    length: 6
+    status: Failed
+  - offset: 1807
+    length: 8
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 929
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-  - offset: 1907
-    length: 6
+    status: Failed
+  - offset: 1993
+    length: 662
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 1075
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |-
     package taxipark
 
@@ -1463,6 +1463,48 @@ files:
 - name: assignmentKey
   visible: false
   learner_created: false
+- name: hs_err_pid5612.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid5064.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid11188.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid3180.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid10676.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid12368.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid2796.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid10964.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid11128.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid9180.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid9884.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid12520.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid3864.log
+  visible: true
+  learner_created: true
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/xTPZT/taxi-park/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Failed to launch checking
+  time: Sat, 24 Apr 2021 08:49:41 UTC
 record: -1
