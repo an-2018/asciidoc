@@ -39,7 +39,7 @@ fun TaxiPark.findSmartPassengers(): Set<Passenger> {
  * Return any period if many are the most frequent, return `null` if there're no trips.
  */
 fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
-    this.trips.groupBy { it.duration }.forEach{println(it)}
+    this.trips.map { first -> trips.map{second -> first to second }}.forEach{println("item $it")}
     return 1..10
 }
 

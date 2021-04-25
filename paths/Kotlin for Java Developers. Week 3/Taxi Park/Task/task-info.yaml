@@ -35,56 +35,56 @@ files:
     length: 0
     placeholder_text: TODO()
     initial_state:
-      length: 6
-      offset: 136
+      length: 0
+      offset: 235
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
   - offset: 587
     length: 2
     placeholder_text: TODO()
     initial_state:
-      length: 6
-      offset: 311
+      length: 2
+      offset: 587
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
   - offset: 753
     length: 207
     placeholder_text: TODO()
     initial_state:
-      length: 6
-      offset: 490
+      length: 207
+      offset: 753
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
   - offset: 1101
     length: 323
     placeholder_text: TODO()
     initial_state:
-      length: 6
-      offset: 646
+      length: 323
+      offset: 1101
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-  - offset: 1761
+    status: Failed
+  - offset: 1799
     length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
-      offset: 929
+      offset: 1761
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-  - offset: 1907
+    status: Failed
+  - offset: 1945
     length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
-      offset: 1075
+      offset: 1907
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
   text: |-
     package taxipark
 
@@ -1464,5 +1464,12 @@ files:
   visible: false
   learner_created: false
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/xTPZT/taxi-park/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: "Wrong result for &#39;findTheMostFrequentTripDurationPeriod()&#39;: 1..10.\r\
+    \nTaxi park:\r\nDrivers: [D-0, D-1]\r\nPassengers: [P-0, P-1, P-2, P-3, P-4, P-5,\
+    \ P-6, P-7, P-8, P-9, P-10]\r\nTrips: []"
+  time: Sat, 24 Apr 2021 00:04:12 UTC
+  expected: "null"
+  actual: 1..10
 record: -1
