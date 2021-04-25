@@ -66,25 +66,42 @@ files:
       offset: 1101
     initialized_from_dependency: false
     selected: true
+<<<<<<< HEAD
     status: Failed
   - offset: 1799
     length: 6
+=======
+    status: Unchecked
+  - offset: 1807
+    length: 8
+>>>>>>> 5a6a2ebc8c75b3dfd4e3b033aab97435cc7ba841
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 1761
     initialized_from_dependency: false
     selected: true
+<<<<<<< HEAD
     status: Failed
   - offset: 1945
     length: 6
+=======
+    status: Unchecked
+  - offset: 1987
+    length: 783
+>>>>>>> 5a6a2ebc8c75b3dfd4e3b033aab97435cc7ba841
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 1907
     initialized_from_dependency: false
+<<<<<<< HEAD
     selected: false
     status: Failed
+=======
+    selected: true
+    status: Unchecked
+>>>>>>> 5a6a2ebc8c75b3dfd4e3b033aab97435cc7ba841
   text: |-
     package taxipark
 
@@ -1463,7 +1480,47 @@ files:
 - name: assignmentKey
   visible: false
   learner_created: false
+- name: hs_err_pid5612.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid5064.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid11188.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid3180.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid10676.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid12368.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid2796.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid10964.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid11128.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid9180.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid9884.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid12520.log
+  visible: true
+  learner_created: true
+- name: hs_err_pid3864.log
+  visible: true
+  learner_created: true
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/xTPZT/taxi-park/discussions
+<<<<<<< HEAD
 status: Failed
 feedback:
   message: "Wrong result for &#39;findTheMostFrequentTripDurationPeriod()&#39;: 1..10.\r\
@@ -1472,4 +1529,11 @@ feedback:
   time: Sat, 24 Apr 2021 00:04:12 UTC
   expected: "null"
   actual: 1..10
+=======
+status: Unchecked
+feedback:
+  message: <html>Submission successful, please <a href="https://www.coursera.org/learn/kotlin-for-java-developers/programming/xTPZT/taxi-park/submission">check
+    the status on Coursera</a></html>
+  time: Sat, 24 Apr 2021 11:24:04 UTC
+>>>>>>> 5a6a2ebc8c75b3dfd4e3b033aab97435cc7ba841
 record: -1

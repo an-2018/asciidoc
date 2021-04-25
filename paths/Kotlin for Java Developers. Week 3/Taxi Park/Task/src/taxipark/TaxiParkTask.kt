@@ -39,8 +39,15 @@ fun TaxiPark.findSmartPassengers(): Set<Passenger> {
  * Return any period if many are the most frequent, return `null` if there're no trips.
  */
 fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
+<<<<<<< HEAD
     this.trips.map { first -> trips.map{second -> first to second }}.forEach{println("item $it")}
     return 1..10
+=======
+
+    val res = this.trips.map{numToRange(it.duration)}.groupingBy{it}.eachCount().maxByOrNull{it.value}
+
+    return res?.key
+>>>>>>> 5a6a2ebc8c75b3dfd4e3b033aab97435cc7ba841
 }
 
 /*
@@ -48,5 +55,32 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
  * Check whether 20% of the drivers contribute 80% of the income.
  */
 fun TaxiPark.checkParetoPrinciple(): Boolean {
-    TODO()
+    if(trips.size == 0) return false
+    val totalIncome = this.trips.sumByDouble{it.cost}
+    val drvTrip = this.trips.map{it.driver to it}.groupBy { it.first }.map { (k,v) -> k to v.sumByDouble { it.second.cost } }.sortedByDescending { it.second }
+    drvTrip.forEach { println(it) }
+
+    val exp = {cost:Int -> this.trips.map{it.driver to it.cost}.groupingBy { it.first }.eachCount().map { it.value * cost }}
+    val sortedTrips = trips.sortedByDescending { it.cost*it.passengers.size}
+    val len = this.allDrivers.size
+    val top20Percent = (0.2 * len).toInt()
+    var sumCost:Double=0.0
+
+    drvTrip.filterIndexed{idx,value -> idx < top20Percent }.forEach{sumCost+=(it.second)}
+    println("Total $totalIncome Total drivers $len 20%Driver $top20Percent 20%Cost $sumCost")
+
+    return sumCost >= 0.8 * totalIncome
+}
+
+fun numToRange(num:Int):IntRange?{
+    val numStr = num.toString()
+    val len = numStr.length
+    var leftRange = 0
+    var rightRange = 9
+
+    if(len > 1) {
+        leftRange = (numStr.substring(0 until len-1) + "0").toInt()
+        rightRange += leftRange
+    }
+    return leftRange..rightRange
 }

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="taxipark.TestTask5TheMostFrequentTripDurationPeriod" tests="14" skipped="0" failures="14" errors="0" timestamp="2021-04-24T00:04:10" hostname="LAPTOP-0SJIEU5A" time="0.243">
   <properties/>
   <testcase name="test00" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.059">
@@ -1082,5 +1083,24 @@ item [(Trip(driver=Driver(name=D-3), passengers=[Passenger(name=P-2), Passenger(
 item [(Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1)], duration=33, distance=3.0, discount=null), Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1)], duration=33, distance=3.0, discount=null)), (Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1)], duration=33, distance=3.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2)], duration=4320, distance=3.0, discount=null))]
 item [(Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2)], duration=4320, distance=3.0, discount=null), Trip(driver=Driver(name=D-1), passengers=[Passenger(name=P-1)], duration=33, distance=3.0, discount=null)), (Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2)], duration=4320, distance=3.0, discount=null), Trip(driver=Driver(name=D-2), passengers=[Passenger(name=P-2)], duration=4320, distance=3.0, discount=null))]
 ]]></system-out>
+=======
+<testsuite name="taxipark.TestTask5TheMostFrequentTripDurationPeriod" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-24T11:22:41" hostname="NOSI-DDS-87" time="0.152">
+  <properties/>
+  <testcase name="test00" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.064"/>
+  <testcase name="test01" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.065"/>
+  <testcase name="test02" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.002"/>
+  <testcase name="test03" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test04" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test05" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test06" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test07" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test08" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test09" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test10" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.002"/>
+  <testcase name="test11" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test12" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.001"/>
+  <testcase name="test13" classname="taxipark.TestTask5TheMostFrequentTripDurationPeriod" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+>>>>>>> 5a6a2ebc8c75b3dfd4e3b033aab97435cc7ba841
   <system-err><![CDATA[]]></system-err>
 </testsuite>
