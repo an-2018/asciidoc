@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab4e8d4-9526-477a-8ff8-d2bd2f38d675" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 4/Rationals/Task/out/production/classes/rationals/Rational.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 4/Rationals/Task/out/production/classes/rationals/Rational.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 4/Rationals/Task/out/production/classes/rationals/RationalKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 4/Rationals/Task/out/production/classes/rationals/RationalKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 4/Rationals/Task/src/rationals/Rational.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 4/Rationals/Task/src/rationals/Rational.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

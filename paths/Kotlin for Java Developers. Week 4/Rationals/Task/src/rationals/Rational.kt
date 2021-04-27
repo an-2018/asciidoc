@@ -1,7 +1,6 @@
 package rationals
 
 import java.math.BigInteger
-import kotlin.reflect.typeOf
 
 fun main() {
     val half = 1 divBy 2
@@ -23,7 +22,8 @@ fun main() {
     println(-1 divBy 2 == negation)
 
     println((2 divBy 1).toString() == "2")
-    println((-2 divBy 4).toString() == "-1/2")
+    // h
+    println((-2 divBy 4).toString() )
     println("117/1098".toRational().toString() == "13/122")
 
     val twoThirds = 2 divBy 3
@@ -35,6 +35,7 @@ fun main() {
 
     println("912016490186296920119201192141970416029".toBigInteger() divBy
             "1824032980372593840238402384283940832058".toBigInteger() == 1 divBy 2)
+
 }
 
 infix fun <T :Number> T.divBy(denominator: T):Rational{
@@ -43,7 +44,7 @@ infix fun <T :Number> T.divBy(denominator: T):Rational{
 
 fun String.toRational():Rational {
     val params = this.split('/')
-    return Rational(BigInteger(params[0]), BigInteger(params[2]))
+    return Rational(BigInteger(params[0]), BigInteger(params[1]))
 }
 
 class Rational(n:Number, d:Number) {
@@ -52,25 +53,23 @@ class Rational(n:Number, d:Number) {
 
     init {
         when(n){
-            is Int -> {
-                this.n = n.toBigInteger()
-            }
-            is Long ->{
-                this.n = n.toBigInteger()
-            }
+            is Int -> this.n = n.toBigInteger()
+            is Long -> this.n = n.toBigInteger()
+            is BigInteger -> this.n = n
         }
         when (d){
             is Int -> this.d = d.toBigInteger()
             is Long -> this.d = d.toBigInteger()
+            is BigInteger -> this.d = d
         }
 
         if (d == BigInteger.ZERO) {
             throw IllegalArgumentException()
         }
 
-
         val divisor =  this.n.gcd(this.d)
         if(divisor != BigInteger.ONE)  {this.n /= divisor; this.d/=divisor}
+
     }
 
     infix operator fun plus(operand: Rational): Rational =
@@ -85,17 +84,16 @@ class Rational(n:Number, d:Number) {
         Rational(operand.n * this.n, operand.d * this.d)
 
     infix operator fun div(operand: Rational): Rational {
-        println("${this.n} / ${this.d} div by ${operand.n}/${operand.d} is ${this.n*operand.d}/${this.d*operand.n}")
         return Rational(this.n * operand.d, this.d * operand.n)
     }
 
     operator fun unaryMinus(): Rational = Rational(-this.n, this.d)
 
-    override infix fun equals(other: Any?): Boolean {
-if(other is Rational)
-        println("$${this.n} / ${this.d}  is equal to ${other.n}/${other.d}")
-        return (other is Rational)  && (this.n == other.n && this.d == other.d || this.n / this.d == other.n / other.d)
-            }
+    override infix fun equals(that: Any?): Boolean {
+        return (that is Rational) &&
+                (this.n == that.n && this.d == that.d ||
+                        this.n.toDouble() / this.d.toDouble() == that.n.toDouble() / that.d.toDouble())
+    }
 
     infix operator fun compareTo(other: Rational): Int {
         return when {
@@ -124,6 +122,11 @@ if(other is Rational)
         var result = n.hashCode()
         result = 31 * result + d.hashCode()
         return result
+    }
+
+    override fun toString():String{
+        println("${this.n}/${this.d}")
+        return if(this.d == BigInteger.ONE) "${this.n}" else "${this.n/this.d}"
     }
 
 }
