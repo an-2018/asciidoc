@@ -5,7 +5,7 @@ import java.math.BigInteger
 fun main() {
     val half = 1 divBy 2
     val third = 1 divBy 3
-
+/*
     val sum: Rational = half + third
     println(5 divBy 6 == sum)
 
@@ -24,12 +24,15 @@ fun main() {
     println((2 divBy 1).toString() == "2")
     // h
     println((-2 divBy 4).toString() )
+    */
     println("117/1098".toRational().toString() == "13/122")
 
     val twoThirds = 2 divBy 3
     println(half < twoThirds)
 
     println(half in third..twoThirds)
+    val test = third..twoThirds
+    println((third..twoThirds).contains(half))
 
     println(2000000000L divBy 4000000000L == 1 divBy 2)
 
@@ -42,12 +45,23 @@ infix fun <T :Number> T.divBy(denominator: T):Rational{
     return Rational(this, denominator)
 }
 
-fun String.toRational():Rational {
-    val params = this.split('/')
-    return Rational(BigInteger(params[0]), BigInteger(params[1]))
+infix operator fun Array<Rational?>.contains(that: Rational?): Boolean {
+    val thisN = this.first()!!.n.toDouble()
+    val thisD = this.first()!!.d.toDouble()
+    val thisLastN = this.last()!!.n.toDouble()
+    val thisLastD = this.last()!!.d.toDouble()
+    val thatN = that!!.n.toDouble()
+    val thatD = that.d.toDouble()
+    println("this ${thisN}/${thisD} this last ${thisLastN}/${thisLastD} that ${thatN}/${thatD}")
+return thisN/thisD <= thatN/thatD  && thisLastN/thisLastD >= thatN/thatD
 }
 
-class Rational(n:Number, d:Number) {
+fun String.toRational():Rational {
+    val params = this.split('/')
+    return Rational(BigInteger(params[0]), if(params.size>1) BigInteger(params[1]) else BigInteger.ONE)
+}
+
+class Rational(n:Number, d:Number):Comparable<Rational> {
     var n: BigInteger = BigInteger.ZERO
     var d: BigInteger = BigInteger.ONE
 
@@ -68,7 +82,15 @@ class Rational(n:Number, d:Number) {
         }
 
         val divisor =  this.n.gcd(this.d)
-        if(divisor != BigInteger.ONE)  {this.n /= divisor; this.d/=divisor}
+        if(divisor != BigInteger.ONE)  {
+            this.n /= divisor; this.d/=divisor
+        }
+        if(this.n < BigInteger.ZERO && this.d < BigInteger.ZERO) {
+            println("negative")
+            this.n=-this.n;this.d=-this.d
+        }else if(this.d < BigInteger.ZERO) {
+            println("negative")
+            this.n=-this.n;this.d=-this.d}
 
     }
 
@@ -95,27 +117,12 @@ class Rational(n:Number, d:Number) {
                         this.n.toDouble() / this.d.toDouble() == that.n.toDouble() / that.d.toDouble())
     }
 
-    infix operator fun compareTo(other: Rational): Int {
+    override infix operator fun compareTo(other: Rational): Int {
         return when {
-            ((this.n / this.d) >= (other.n / other.d)) -> 1
-            ((this.n / this.d) < (other.n / other.d)) -> -1
-
+            ((this.n.toDouble() / this.d.toDouble()) > (other.n.toDouble()/ other.d.toDouble())) -> 1
+            ((this.n.toDouble()/this.d.toDouble()) < (other.n.toDouble() / other.d.toDouble())) -> -1
             else -> 0
         }
-    }
-
-
-    infix fun contains(other: Array<Rational>): Boolean =
-        this.n > other.first().n && this.n < other.last().n
-
-
-    operator fun rangeTo(other: Rational): Array<Rational?> {
-        val range:LongRange = (this.n).toLong()..(other.n).toLong()
-        val arr:Array<Rational?> = arrayOfNulls(range.count())
-        for (c in (range).withIndex()){
-            arr[c.index] = Rational(c.value.toBigInteger(),(other.d))
-        }
-        return arr
     }
 
     override fun hashCode(): Int {
@@ -125,9 +132,17 @@ class Rational(n:Number, d:Number) {
     }
 
     override fun toString():String{
-        println("${this.n}/${this.d}")
-        return if(this.d == BigInteger.ONE) "${this.n}" else "${this.n/this.d}"
+        return if(this.d == BigInteger.ONE) "${this.n}" else "${this.n}/${this.d}"
     }
 
+    operator fun rangeTo(that: Rational): RationalRange<Rational>{
+        return RationalRange(this,that)
+    }
 }
+
+class RationalRange<Rational:Comparable<Rational>>(
+    override val start:Rational,
+    override val endInclusive: Rational
+) : ClosedRange<Rational>
+
 
