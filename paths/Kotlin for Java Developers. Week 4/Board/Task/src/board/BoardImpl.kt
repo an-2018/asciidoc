@@ -3,17 +3,53 @@ package board
 import board.Direction.*
 import java.lang.IllegalArgumentException
 import board.*
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.LinkedHashMap
 
-fun createSquareBoard(width: Int): SquareBoard = object : SquareBoard{
+fun createSquareBoard(width: Int): SquareBoard = object : SquareBoardImpl(width){
+
+}
+
+fun <T> createGameBoard(width: Int): GameBoard<T> = object :GameBoard<T>, SquareBoardImpl(width){
+
+    val gameBoardMap:LinkedHashMap<Cell, T?> = LinkedHashMap(width*width)
+    override fun get(cell: Cell): T? {
+        return gameBoardMap[cell]
+    }
+
+    override fun set(cell: Cell, value: T?) {
+        gameBoardMap[cell] = value
+    }
+
+    override fun filter(predicate: (T?) -> Boolean): Collection<Cell> {
+        return gameBoardMap.filter{predicate(it.value)}.map { it.key }
+    }
+
+    override fun find(predicate: (T?) -> Boolean): Cell? {
+        return get(gameBoardMap.filter { predicate(it.value) }.keys.first())
+    }
+
+    override fun any(predicate: (T?) -> Boolean): Boolean {
+        return gameBoardMap.filter { predicate(it.value) }.isNotEmpty()
+    }
+
+    override fun all(predicate: (T?) -> Boolean): Boolean {
+        return gameBoardMap.filter { predicate(it.value) }.size == gameBoardMap.size
+    }
+}
+
+open class SquareBoardImpl(width: Int):SquareBoard{
     override val width: Int = width
+    val cells = LinkedHashMap<Int, Cell>()
     override fun getCellOrNull(i: Int, j: Int): Cell? {
-        return if(i > width || j > width) null
+        return if(i > width || j > width || i < 0 || j < 0) null
         else getCell(i,j)
     }
 
     override fun getCell(i: Int, j: Int): Cell {
         if(i <= 0 || j <= 0) throw IllegalArgumentException()
-        return Cell(i, j)
+        return cells
     }
 
     override fun getAllCells(): Collection<Cell> {
@@ -24,21 +60,34 @@ fun createSquareBoard(width: Int): SquareBoard = object : SquareBoard{
             }
         }
         return list
-
     }
 
     override fun getRow(i: Int, jRange: IntProgression): List<Cell> {
-        TODO("Not yet implemented")
+
+        val list:ArrayList<Cell> = ArrayList()
+        for(j in jRange){
+            if(j > width) break
+            list.add(getCell(i, j))
+        }
+        return list
     }
 
     override fun getColumn(iRange: IntProgression, j: Int): List<Cell> {
-        TODO("Not yet implemented")
+        val list:ArrayList<Cell> = ArrayList()
+        for(i in iRange){
+            if(i > width) break
+            list.add(getCell(i, j))
+        }
+        return list
     }
 
     override fun Cell.getNeighbour(direction: Direction): Cell? {
-        TODO("Not yet implemented")
+        return when (direction) {
+            UP -> getCellOrNull(this.i -1, this.j)
+            LEFT -> getCellOrNull(this.i, this.j - 1)
+            DOWN -> getCellOrNull(this.i + 1, this.j)
+            RIGHT -> getCellOrNull(this.i, this.j + 1)
+        }
     }
 
 }
-fun <T> createGameBoard(width: Int): GameBoard<T> = TODO()
-
