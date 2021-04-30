@@ -27,7 +27,7 @@ fun <T> createGameBoard(width: Int): GameBoard<T> = object :GameBoard<T>, Square
     }
 
     override fun find(predicate: (T?) -> Boolean): Cell? {
-        return get(gameBoardMap.filter { predicate(it.value) }.keys.first())
+        return gameBoardMap.filter { predicate(it.value) }.keys.first()
     }
 
     override fun any(predicate: (T?) -> Boolean): Boolean {
@@ -41,22 +41,34 @@ fun <T> createGameBoard(width: Int): GameBoard<T> = object :GameBoard<T>, Square
 
 open class SquareBoardImpl(width: Int):SquareBoard{
     override val width: Int = width
-    val cells = LinkedHashMap<Int, Cell>()
+    private val cells = LinkedList<LinkedList<Cell>>()
+
+    init {
+        for (i in 1..width) {
+            val aux = LinkedList<Cell>()
+            for (j in 1..width) {
+                aux.add(Cell(i, j))
+            }
+            cells.add(aux)
+        }
+    }
+
     override fun getCellOrNull(i: Int, j: Int): Cell? {
-        return if(i > width || j > width || i < 0 || j < 0) null
+        return if(i > width || j > width || i <= 0 || j <= 0) null
         else getCell(i,j)
     }
 
     override fun getCell(i: Int, j: Int): Cell {
-        if(i <= 0 || j <= 0) throw IllegalArgumentException()
-        return cells
+        if(i <= 0 || j <= 0 || i >= width || j >= width) throw IllegalArgumentException()
+        println("$i $j")
+        return cells[i][j]
     }
 
     override fun getAllCells(): Collection<Cell> {
         val list:ArrayList<Cell> = ArrayList()
         for (i in 1..width){
             for(j in 1..width){
-                list.add(Cell(i,j))
+                list.add(getCell(i,j))
             }
         }
         return list
