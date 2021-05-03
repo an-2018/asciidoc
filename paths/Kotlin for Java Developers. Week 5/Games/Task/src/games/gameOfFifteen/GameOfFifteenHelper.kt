@@ -11,5 +11,14 @@ package games.gameOfFifteen
  * Thus the initial permutation should be correct.
  */
 fun isEven(permutation: List<Int>): Boolean {
-    TODO()
+    return permutation.size % 2 == 0
+}
+
+fun factorial(num:Int):Int{
+    var res = 1
+    if(num == 1)return 1
+    for (i in 1..num){
+        res*=i
+    }
+    return res
 }

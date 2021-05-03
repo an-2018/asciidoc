@@ -6,11 +6,19 @@ import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.LinkedHashMap
 
-fun createSquareBoard(width: Int): SquareBoard = object : SquareBoardImpl(width){}
+fun createSquareBoard(width: Int): SquareBoard = SquareBoardImpl(width)
 
 fun <T> createGameBoard(width: Int): GameBoard<T> = object :GameBoard<T>, SquareBoardImpl(width){
 
     val gameBoardMap:LinkedHashMap<Cell, T?> = LinkedHashMap(width*width)
+    init {
+        for(i in 1..width){
+            for (j in 1..width){
+                gameBoardMap[getCell(i, j)] = null
+            }
+        }
+    }
+
     override fun get(cell: Cell): T? {
         return gameBoardMap[cell]
     }
@@ -28,11 +36,12 @@ fun <T> createGameBoard(width: Int): GameBoard<T> = object :GameBoard<T>, Square
     }
 
     override fun any(predicate: (T?) -> Boolean): Boolean {
-        return gameBoardMap.filter { predicate(it.value) }.isNotEmpty()
+        gameBoardMap.forEach{println(it)}
+        return gameBoardMap.any { predicate(it.value) }
     }
 
     override fun all(predicate: (T?) -> Boolean): Boolean {
-        return gameBoardMap.filter { predicate(it.value) }.size == gameBoardMap.size
+        return gameBoardMap.all { predicate(it.value) }
     }
 }
 
@@ -56,10 +65,9 @@ open class SquareBoardImpl(width: Int):SquareBoard{
     }
 
     override fun getCell(i: Int, j: Int): Cell {
-
-        println("$i $j")
-        if(i <= 0 || j <= 0 || i > width || j > width) throw IllegalArgumentException()
-        return cells[i][j]
+        if(i < 1 || j < 1 ||
+            i > width || j > width) throw IllegalArgumentException()
+        return cells[i-1][j-1]
     }
 
     override fun getAllCells(): Collection<Cell> {
@@ -101,5 +109,4 @@ open class SquareBoardImpl(width: Int):SquareBoard{
     }
 
 }
-
 

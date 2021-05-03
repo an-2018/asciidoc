@@ -27,7 +27,7 @@ object RandomGame2048Initializer: Game2048Initializer<Int> {
 
         if(board.all { it!=null}) return null
 
-        val freeCells = board.getAllCells().filter { it != null }
+        val freeCells = board.getAllCells().filter { board[it] == null }
         val randomIdx = Random.nextInt(freeCells.size)
         val randomStartValue = generateRandomStartValue()
 
