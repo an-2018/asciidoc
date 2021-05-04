@@ -1,0 +1,57 @@
+= Flutter Roadmap
+
+== Fundamentals
+
+=== Dart:
+- https://dart.dev/samples[Dart Code Tour]
+* Dart cheaatsheet
+** https://dart.dev/codelabs/dart-cheatsheet
+
+=== Everything is  a widget
+* Intro to widgets
+** https://flutter.dev/docs/development/ui/layout
+
+=== Gorgeous UI's
+- SuperDeclarative!
+https://www.youtube.com/watch?v=dOwVPZSJQuo&list=PLR12su153J5PmGomy9Iit0pW-5NlkyzVg
+
+- Johannes Milke
+https://www.youtube.com/watch?v=WFJt5dCJsTo&list=PL1WkZqhlAdC9shbzjQao6cdzqB_Wu7Hr4
+https://www.youtube.com/channel/UC0FD2apauvegCcsvqIBceLA
+
+- Community UI's - Awesome Flutter
+https://github.com/Solido/awesome-flutter#ui
+
+=== Networking
+* Cookbook
+** https://flutter.dev/docs/cookbook#networking
+
+* Navigation
+** https://flutter.dev/docs/cookbook#navigation
+
+=== State Management
+* Watch an https://www.youtube.com/watch?v=d_m5csmrf7I[I/O talk on what "state management" means] for Flutter
+You'd be surprised how far you can get with just a StatefulWidget!
+* A good next step is to try Provider with ChangeNotifier
+** Watch this https://www.youtube.com/watch?v=HrBiNHEqSYU&list=PLjxrf2q8roU3ahJVrSgAnPjzkpGmL9Czl&index=22[Boring Show episode]
+** Or these samples: https://github.com/flutter/samples/tree/master/provider_counter[provider_counter], https://flutter.github.io/samples/provider_shopper.html[provider_shopper]
+
+=== Use plugins to access native APIs
+Read https://flutter.dev/docs/development/packages-and-plugins/using-packages[the guide on using packages and plugins]
+
+=== Test your code!
+Read the https://flutter.dev/docs/testing[guide to testing in Flutter]
+
+* Look for further content on the https://events.flutter.dev/engage/learn/beginner[flutter engage learning roadmap]
+
+== Intermediate
+
+== Expert
+
+== Widget Of the Week
+Build a sample of the code of each widget of the week channel
+https://www.youtube.com/watch?v=lkF0TQJO0bA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=2
+
+== References
+https://events.flutter.dev/engage/learn/beginner
+
