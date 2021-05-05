@@ -18,12 +18,11 @@ class Helper {
       list.add(
         GestureDetector(
           child: Container(
+            width: 64.0,
+            height: 64.0,
             decoration: BoxDecoration(
-              shape: BoxShape.rectangle,
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.circular(15),
             ),
-            width: 300.0,
-            height: 300.0,
             child: Image.asset('images/$element'),
           ),
           onTap: () {
