@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fluterando_flutter_course",
+            "cwd": "fluterando_flutter_course",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "magic_app_guilherme_silv",
+            "cwd": "magic_app_guilherme_silv",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tryon_samples",
+            "cwd": "tryon_samples",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

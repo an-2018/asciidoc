@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tryon_samples/pages/helpers.dart';
 
 class ProductList extends StatelessWidget {
   @override
@@ -8,6 +9,11 @@ class ProductList extends StatelessWidget {
         height: 64.0,
         width: MediaQuery.of(context).size.width * 0.8,
         color: Colors.cyan,
+        child: Row(
+          children: [
+            Image.asset('images/product1.png')
+            ],
+        ),
       ),
     );
   }
