@@ -21,6 +21,12 @@
             "cwd": "tryon_samples",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "quiz",
+            "cwd": "nlw_quiz_app\\quiz",
+            "request": "launch",
+            "type": "dart"
         }
     ]
 }
