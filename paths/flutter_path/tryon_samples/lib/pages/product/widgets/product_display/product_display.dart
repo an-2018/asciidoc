@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:tryon_samples/pages/helpers.dart';
-
-main() {
-  runApp(ProductDisplay());
-}
+import 'package:tryon_samples/core/helpers.dart';
 
 class ProductDisplay extends StatelessWidget {
   final Widget image;

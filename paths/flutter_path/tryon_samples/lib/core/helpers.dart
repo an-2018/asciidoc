@@ -18,8 +18,8 @@ class Helper {
       list.add(
         GestureDetector(
           child: Container(
-            width: 64.0,
-            height: 64.0,
+            width: 200,
+            height: 64,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
             ),

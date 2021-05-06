@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'pages/product_page.dart';
+import 'package:tryon_samples/core/app_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +8,8 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: ProductPage());
+    return MaterialApp(
+      home: AppWidget(),
+    );
   }
 }

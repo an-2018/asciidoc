@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tryon_samples/pages/helpers.dart';
 
 class ProductList extends StatelessWidget {
   @override

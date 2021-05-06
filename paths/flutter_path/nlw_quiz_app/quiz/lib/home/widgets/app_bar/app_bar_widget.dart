@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import '../../../core/app_gradients.dart';
-import '../../../core/app_text_styles.dart';
+import '../../../core/core.dart';
 import '../score_card/score_card.dart';
 
 class AppBarWidget extends PreferredSize {
