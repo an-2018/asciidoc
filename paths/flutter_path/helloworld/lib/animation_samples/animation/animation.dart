@@ -4,9 +4,12 @@ import 'package:flutter/material.dart';
 class MyAnimation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: const Center(
-        child: MyStatefullWidget(),
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(),
+        body: const Center(
+          child: MyStatefullWidget(),
+        ),
       ),
     );
   }

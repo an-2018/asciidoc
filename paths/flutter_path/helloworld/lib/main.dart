@@ -18,7 +18,12 @@ class ProductPage extends StatelessWidget {
         ),
         body: Container(
           padding: EdgeInsets.symmetric(horizontal: 30),
-          child: ListView.builder(
+          child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10,
+                  childAspectRatio: 1.4),
               itemCount: listOfWidgets.length,
               itemBuilder: (context, index) {
                 return Padding(

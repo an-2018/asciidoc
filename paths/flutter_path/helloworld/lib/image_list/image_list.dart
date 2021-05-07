@@ -21,7 +21,7 @@ class MyImageList extends StatelessWidget {
   getImageList() {
     List<Widget> list = [];
 
-    ['pic1.jpg', 'pic2.jpg', 'pic3.jpg'].forEach((element) {
+    ['image1.png', 'image2.png', 'image3.png'].forEach((element) {
       list.add(Expanded(
         child: Container(
           width: 200,
