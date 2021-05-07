@@ -56,11 +56,35 @@ class ProductListMiniatures extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 250.0,
-      width: double.infinity,
-      color: Colors.grey,
-      child:
-          ListView(children: Helper.products, scrollDirection: Axis.horizontal),
-    );
+        height: 250.0,
+        width: double.infinity,
+        color: Colors.grey,
+        child: Text("Teste")
+        //ListView(children: getProducts(), scrollDirection: Axis.horizontal),
+        );
+  }
+
+  List<Widget> getProducts() {
+    List<Widget> list = [];
+    Helper.getProductList().forEach((element) {
+      print('${element.name}');
+      list.add(
+        GestureDetector(
+          child: Container(
+            width: 200,
+            height: 64,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15),
+            ),
+            child: Image.asset('${element.imgUrl}'),
+          ),
+          onTap: () {
+            print("Hello it works!");
+          },
+        ),
+      );
+    });
+
+    return list;
   }
 }
