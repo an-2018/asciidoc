@@ -1,0 +1,3 @@
+enum CategoryTypes{
+  BIGINNER, INTERMEDIATE, ADVANCED
+}
