@@ -55,6 +55,15 @@ To write code snepts inline `System.out.println("Code")`
 
 * https://www.vogella.com/tutorials/AsciiDoc/article.html#highlighting["Tutorials"]
 
-== TODO
-find the first to take that can depend on others
-check dependencies btw the core modules
+== Embeding html
+
+[source, html]
+----
+++++
+<iframe src"..."></iframe>
+++++
+----
+
+++++
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5HhzowZkXb0OzLtEgJla7W%2Ftryon-ui%3Fnode-id%3D16%253A58" allowfullscreen></iframe>
+++++
