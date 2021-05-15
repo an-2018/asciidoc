@@ -3,50 +3,55 @@ Organization of projects and documentation,note keeping of major things to learn
 
 == Projects and Ideas
 [%header]
-|===
-|Name 
-|Description|Techs & Skills 
-|Link
-|TODO
+|====
+|Name |Description |Techs & Skills |Link|TODO
 
 |*Kotxiposix Community*
 |A community driven platform for learning, teach, create, gamification and inspiration,
 |Landing page \| Comunity Platform
 |https://github.com/an-2018/kotxiposix_community
+|
 
 |*Flutter Kotxiposix Comunity*
 |Comunity Open Source App
 |Web app \| OpenSource Comunity App
 |https://github.com/an-2018/flutter-kotxiposix-comunity
+|
 
 |*Kotlin Tales of Oracio*
 |Platformer Game
 |Gaming
 |https://github.com/an-2018/tales_of_oracio_kotlin_version
+|
 
 |Kotxiposix Games Landing
 |Landing Page of Kottxiposix Community project
 |Web Developement
 |https://an-2018.github.io/comai-landingPage/
+|
 
 |*Dart Cheat Sheet*
 |Documentation like and TDD like key concepts of Dart development
 |Dart Programing
 |https://github.com/an-2018/dart_cheat_sheet
+|
 
 |Katxupi Adventrures 
 |Platformer Game 
 |Gaming 
 |https://github.com/users/an-2018/projects/2[ git project page]
+|
 
 |Skada
 |Monitoring and smart control of sweage assets in municipalities and cities
 |R&D - SCADA Web Aplication
 |https://github.com/an-2018/skada-frontend \|https://github.com/an-2018/skada_api
+|
 
 |Kotxiposix Steps
 |Rebuild the key games developed at <AC/>
 |Fullstack Development
+|
 |
 
 |Comai 
@@ -59,6 +64,7 @@ Organization of projects and documentation,note keeping of major things to learn
 |Weekly challenges to R&D little project in most disruptive or diferent technologies
 |Tecnology R&D
 |https://github.com/an-2018/30-Days-Of-JavaScript \|https://github.com/an-2018/10h-of-js
+|
 
 
 |===
