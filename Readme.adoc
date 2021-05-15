@@ -1,10 +1,81 @@
 = Dev Learning Path
-Documentation and note keeping of major things to learn and to do's
+Organization of projects and documentation,note keeping of major things to learn, to do's.
 
 == Projects and Ideas
 [%header]
 |===
-|Name | Description|Techs & Skills | Link
-|Katxupi Adventrures | Platformer Game | Gaming | https://github.com/users/an-2018/projects/2[ git project page]
-| Kotxiposix landing | landing page    | WebDev | 
+|Name 
+|Description|Techs & Skills 
+|Link
+|TODO
+
+|*Kotxiposix Community*
+|A community driven platform for learning, teach, create, gamification and inspiration,
+|Landing page \| Comunity Platform
+|https://github.com/an-2018/kotxiposix_community
+
+|*Flutter Kotxiposix Comunity*
+|Comunity Open Source App
+|Web app \| OpenSource Comunity App
+|https://github.com/an-2018/flutter-kotxiposix-comunity
+
+|*Kotlin Tales of Oracio*
+|Platformer Game
+|Gaming
+|https://github.com/an-2018/tales_of_oracio_kotlin_version
+
+|Kotxiposix Games Landing
+|Landing Page of Kottxiposix Community project
+|Web Developement
+|https://an-2018.github.io/comai-landingPage/
+
+|*Dart Cheat Sheet*
+|Documentation like and TDD like key concepts of Dart development
+|Dart Programing
+|https://github.com/an-2018/dart_cheat_sheet
+
+|Katxupi Adventrures 
+|Platformer Game 
+|Gaming 
+|https://github.com/users/an-2018/projects/2[ git project page]
+
+|Skada
+|Monitoring and smart control of sweage assets in municipalities and cities
+|R&D - SCADA Web Aplication
+|https://github.com/an-2018/skada-frontend \|https://github.com/an-2018/skada_api
+
+|Kotxiposix Steps
+|Rebuild the key games developed at <AC/>
+|Fullstack Development
+|
+
+|Comai 
+|AI application to solve challeging problem of the Data era
+|R&D
+|https://github.com/an-2018/comai-landingPage
+|Embed Video of the project to the landing and readme of project
+
+|WeekChallenges
+|Weekly challenges to R&D little project in most disruptive or diferent technologies
+|Tecnology R&D
+|https://github.com/an-2018/30-Days-Of-JavaScript \|https://github.com/an-2018/10h-of-js
+
+
 |===
+
+== Fields
+
+=== R&D
+- Gamification
+- UI|UX Design
+- Cloud Engineering
+- Data engineering
+
+=== UI and Frontend
+- Flutter development
+
+=== API - Architeture - Backend 
+- Kotlin development
+
+=== Refactoring - Clean Code - Clean Architeture
+- Applicatino development best pratices
