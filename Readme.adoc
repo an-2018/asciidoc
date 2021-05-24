@@ -4,68 +4,95 @@ Organization of projects and documentation,note keeping of major things to learn
 == Projects and Ideas
 [%header]
 |====
-|Name |Description |Techs & Skills |Link|TODO
+|Num |Name |Description |Techs & Skills |Link|TODO
 
+|{counter:row_num}
+|*Backend Pratice*
+|A checklist of chalenges to pratice backend technologies
+|Spring, ORM, RESTful, Hypermedia, Docker, JVM, Kotlin, Gradle
+|https://github.com/an-2018/backend_pratice.git
+|
+
+|{counter:row_num}
 |*Kotxiposix Community*
 |A community driven platform for learning, teach, create, gamification and inspiration,
 |Landing page \| Comunity Platform
 |https://github.com/an-2018/kotxiposix_community
 |
 
+|{counter:row_num}
 |*Flutter Kotxiposix Comunity*
 |Comunity Open Source App
 |Web app \| OpenSource Comunity App
 |https://github.com/an-2018/flutter-kotxiposix-comunity
 |
 
+
+|{counter:row_num}
 |*Kotlin Tales of Oracio*
 |Platformer Game
 |Gaming
 |https://github.com/an-2018/tales_of_oracio_kotlin_version
 |
 
+
+|{counter:row_num}
 |Kotxiposix Games Landing
 |Landing Page of Kottxiposix Community project
 |Web Developement
 |https://an-2018.github.io/comai-landingPage/
 |
 
+
+|{counter:row_num}
 |*Dart Cheat Sheet*
 |Documentation like and TDD like key concepts of Dart development
 |Dart Programing
 |https://github.com/an-2018/dart_cheat_sheet
 |
 
+
+|{counter:row_num}
 |Katxupi Adventrures 
 |Platformer Game 
 |Gaming 
 |https://github.com/users/an-2018/projects/2[ git project page]
 |
 
+
+|{counter:row_num}
 |Skada
 |Monitoring and smart control of sweage assets in municipalities and cities
 |R&D - SCADA Web Aplication
 |https://github.com/an-2018/skada-frontend \|https://github.com/an-2018/skada_api
 |
 
+
+|{counter:row_num}
 |Kotxiposix Steps
 |Rebuild the key games developed at <AC/>
 |Fullstack Development
 |
 |
 
+
+|{counter:row_num}
 |Comai 
 |AI application to solve challeging problem of the Data era
 |R&D
 |https://github.com/an-2018/comai-landingPage
 |Embed Video of the project to the landing and readme of project
 
+
+|{counter:row_num}
 |WeekChallenges
 |Weekly challenges to R&D little project in most disruptive or diferent technologies
 |Tecnology R&D
 |https://github.com/an-2018/30-Days-Of-JavaScript \|https://github.com/an-2018/10h-of-js
 |
 
+
+|{counter:row_num}
 |Portfolio
 |
 |https://github.com/an-2018/portfolio
