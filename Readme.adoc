@@ -7,6 +7,13 @@ Organization of projects and documentation,note keeping of major things to learn
 |Num |Name |Description |Techs & Skills |Link|TODO
 
 |{counter:row_num}
+|*Frontend Pratice*
+|A checklist of chalenges to pratice fronyend technologies
+|Flutter, Dart, JS, React
+|https://github.com/an-2018/frontend_pratice.git
+|
+
+|{counter:row_num}
 |*Backend Pratice*
 |A checklist of chalenges to pratice backend technologies
 |Spring, ORM, RESTful, Hypermedia, Docker, JVM, Kotlin, Gradle
